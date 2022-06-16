@@ -60,7 +60,7 @@ class FCTPDataFormatValidator:
             # Setting up the path for the log file for this class
             self.log_path = os.path.join("FCTPLogFiles/prediction/", "FCTPDataFormatValidator.txt")
 
-            # Variable which will tell in the logs whether log message is for training.
+            # Variable which will tell in the logs whether log message is for prediction.
             self.operation = "PREDICTION"
 
             # Make the PredictionData Directory if absent
@@ -79,7 +79,7 @@ class FCTPDataFormatValidator:
         # Storing the directory path where the Datasets are Available
         self.dir_path = path
 
-        #Setting up the logging feature
+        # Setting up the logging feature
         self.fctp_data_format_validator_logging = logging.getLogger("fctp_data_format_validator_log")
         self.fctp_data_format_validator_logging.setLevel(logging.INFO)
         fctp_data_format_handler = logging.FileHandler(self.log_path)
@@ -251,7 +251,7 @@ class FCTPDataFormatValidator:
                 
                 # obtaining list of all files present in the BadRaw Directory
                 bad_files = os.listdir(self.bad_raw_path)
-                print(bad_files)
+                
                 # Looping through every file in bad_files
                 for file in bad_files:
                     # checking if the bad dile is already present in archive directory
