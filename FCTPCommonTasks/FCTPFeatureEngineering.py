@@ -197,45 +197,66 @@ class FCTPFeatureEngineering:
         :Description: This method performs Principal Component Analysis of the dataframe passed. To be used when the
                       multi-collinear features contain information vital enough that they will be lost if removed for
                       future analysis.
+        
         :param dataframe: The dataframe on which PCA has to be carried out to retain the information which may get lost
                           if feature removal was carried out.
         :param variance_to_be_retained: The amount of variance to be retained after PCA has been carried out.
+        
         :return: pca_dataframe - The resultant dataframe after PCA has been carried out
+        :On Failure: Exception
         """
         try:
+            # Checking if we are performing training or prediction
             if self.operation == 'TRAINING':
-
+                
+                # Creating an object of type PCA
                 pca = PCA(n_components=variance_to_be_retained, svd_solver="full")
+
+                # Fitting and transforming the data using Pricipal Component Analysis
                 pca_data = pca.fit_transform(dataframe)
 
+                # Providing trivial Column Names
                 feature_names = [f"Feature_{i+1}" for i in range(pca.n_components_)]
+
+                # Creating a new Dataframe with new features
                 pca_dataframe = pd.DataFrame(data=pca_data, columns=feature_names)
 
+                # Logging to inform about successful reduction of features
                 message = f"{self.operation}: The Principal Component Analysis model is Trained"
                 self.fctp_feature_engineering_logging.info(message)
 
+                # Saving the PCA model
                 self.file_operator.fctp_save_model(pca, self.models_path, self.pca_model_name)
+
+                # Logging about PCA model saved
                 message = f"{self.operation}: The Principal Component Analysis model is saved at {self.models_path}"
                 self.fctp_feature_engineering_logging.info(message)
 
+                # Logging about the number of features present in the resultant dataframe
                 message = f"{self.operation}: The Principal Component Analysis was carried out on the data and the no "\
                           f"of components in the resultant features for future pipeline are {pca.n_features_}"
                 self.fctp_feature_engineering_logging.info(message)
                 return pca_dataframe
 
             else:
-
+                
+                # Loading the PCA model
                 pca = self.file_operator.fctp_load_model(os.path.join(self.models_path, self.pca_model_name))
 
+                # Logging about the PCA model loaded
                 message = f"{self.operation}: The Principal Component Analysis model is loaded from {self.models_path}"
                 self.fctp_feature_engineering_logging.info(message)
 
+                # Transform the data
                 pca_data = pca.transform(dataframe)
 
+                # Providing trivial Column Names
                 feature_names = [f"Feature_{i + 1}" for i in range(pca.n_components_)]
-                pca_dataframe = pd.DataFrame(data=pca_data, columns=feature_names)
-                pca_dataframe = pca_dataframe.round(1)
 
+                # Creating a new Dataframe with new features
+                pca_dataframe = pd.DataFrame(data=pca_data, columns=feature_names)
+
+                # Logging about successful transformation
                 message = f"{self.operation}: Data transformed into {pca.n_features_} using pca model"
                 self.fctp_feature_engineering_logging.info(message)
 
