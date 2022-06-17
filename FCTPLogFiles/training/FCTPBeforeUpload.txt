@@ -1,1 +1,3 @@
 INFO 06/16/2022 08:30:30 PM TRAINING: Forest_Cover_16062022_175430.csv transformed successfully
+INFO 06/17/2022 08:31:13 AM TRAINING: Forest_Cover_16062022_175430.csv transformed successfully
+INFO 06/17/2022 08:31:40 AM TRAINING: Forest_Cover_16062022_175430.csv transformed successfully

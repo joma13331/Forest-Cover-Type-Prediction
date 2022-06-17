@@ -104,7 +104,7 @@ class FCTPDBOperation:
             session.execute("USE forest_cover_type_prediction_internship;")
 
             # Logging to inform that the relevant keyspace has been accessed
-            message = f"{self.operation}: accessed the credit_card_defaulters_internship keyspace"
+            message = f"{self.operation}: accessed the forest_cover_type_prediction_internship keyspace"
             self.fctp_db_operation_logging.info(message)
 
             return session
@@ -125,7 +125,7 @@ class FCTPDBOperation:
         :Description: This method creates a 'good_training_data' or 'good_prediction_data' table to store good data
                       with the appropriate column names.
 
-        :param column_names: Column Names as expected from EESchema based on DSA
+        :param column_names: Column Names as expected from FCTPSchema based on DSA
         
         :return:None
         :On Failure: Exception
@@ -336,7 +336,7 @@ class FCTPDBOperation:
                       Only after the prediction is displayed on the web app does the database operations begin.
         
         :param column_names: The column names of the table in the cassandra database.
-        :param data_format_validator: An object of EEDataFormatPred class to perform deletion and transfer of files
+        :param data_format_validator: An object of FCTPDataFormatPred class to perform deletion and transfer of files
         
         :return: None
         :On Failure: Exception

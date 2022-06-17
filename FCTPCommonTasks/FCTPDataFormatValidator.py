@@ -273,7 +273,7 @@ class FCTPDataFormatValidator:
     def fctp_validating_filename(self, regex):
         """
         :Method Name: fctp_validating_file_name
-        :Description: This function validates the name of the training csv files as per given name in the EESchema!
+        :Description: This function validates the name of the training csv files as per given name in the FCTPSchema!
                       Regex pattern is used to do the validation.If name format do not match the file is moved
                       to Bad Raw Data folder else in Good raw data.
         :param regex: The regex compiler used to check validity of filenames
@@ -316,7 +316,7 @@ class FCTPDataFormatValidator:
         """
         :Method Name: fctp_validate_column_length
         :Description: This function validates the number of columns in the csv files.
-                      It is should be same as given in the EESchema file.
+                      It is should be same as given in the FCTPSchema file.
                       If not same file is not suitable for processing and thus is moved to Bad Raw Data folder.
                       If the column number matches, file is kept in Good Raw Data for processing.
 
@@ -437,7 +437,7 @@ class FCTPDataFormatValidator:
         """
         :Method Name: fctp_convert_direct_csv_to_csv
         :Description: This function converts all the csv files which have been validated as being in the correct
-                      format into a single csv file which is then used in preprocessing for training ML EEModels.
+                      format into a single csv file which is then used in preprocessing for training ML FCTPModels.
                       This function is used to improve the speed or latency of the web application as the app does not
                       have to wait for database operations before starting the training.
         :return: None

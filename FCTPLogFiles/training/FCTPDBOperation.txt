@@ -1,0 +1,15 @@
+INFO 06/17/2022 07:54:16 AM TRAINING: Connection successful with cassandra database
+INFO 06/17/2022 07:54:17 AM TRAINING: accessed the credit_card_defaulters_internship keyspace
+INFO 06/17/2022 07:54:19 AM TRAINING: The table for Good Data created
+INFO 06/17/2022 07:54:20 AM TRAINING: Any row if existing deleted
+INFO 06/17/2022 07:54:20 AM TRAINING: Session terminated create table operation
+ERROR 06/17/2022 07:54:43 AM TRAINING: Connection Unsuccessful with cassandra database due to Incorrect credentials or no connection from datastax
+ERROR 06/17/2022 07:54:43 AM TRAINING: Error while uploading data to good_data table: __init__() takes exactly 3 positional arguments (1 given)
+ERROR 06/17/2022 07:55:57 AM TRAINING: Connection Unsuccessful with cassandra database due to Incorrect credentials or no connection from datastax
+INFO 06/17/2022 07:55:57 AM TRAINING: The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+ERROR 06/17/2022 07:56:43 AM TRAINING: Connection Unsuccessful with cassandra database due to Incorrect credentials or no connection from datastax
+INFO 06/17/2022 07:56:43 AM TRAINING: The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+ERROR 06/17/2022 07:58:24 AM TRAINING: Connection Unsuccessful with cassandra database due to Incorrect credentials or no connection from datastax
+INFO 06/17/2022 07:58:24 AM TRAINING: The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
+ERROR 06/17/2022 07:59:07 AM TRAINING: Connection Unsuccessful with cassandra database due to Incorrect credentials or no connection from datastax
+INFO 06/17/2022 07:59:07 AM TRAINING: The table for Good Data was Not created: __init__() takes exactly 3 positional arguments (1 given)
