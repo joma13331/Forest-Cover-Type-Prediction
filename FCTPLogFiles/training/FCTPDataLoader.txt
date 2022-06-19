@@ -34,3 +34,8 @@ INFO 06/18/2022 03:54:01 PM TRAINING: The data is loaded successfully as a panda
 INFO 06/18/2022 03:55:15 PM TRAINING: The data is loaded successfully as a pandas dataframe
 INFO 06/18/2022 03:57:32 PM TRAINING: The data is loaded successfully as a pandas dataframe
 INFO 06/18/2022 04:37:18 PM TRAINING: The data is loaded successfully as a pandas dataframe
+INFO 06/19/2022 11:16:39 AM TRAINING: The data is loaded successfully as a pandas dataframe
+INFO 06/19/2022 11:22:22 AM TRAINING: The data is loaded successfully as a pandas dataframe
+INFO 06/19/2022 11:28:49 AM TRAINING: The data is loaded successfully as a pandas dataframe
+INFO 06/19/2022 11:36:37 AM TRAINING: The data is loaded successfully as a pandas dataframe
+INFO 06/19/2022 11:41:03 AM TRAINING: The data is loaded successfully as a pandas dataframe

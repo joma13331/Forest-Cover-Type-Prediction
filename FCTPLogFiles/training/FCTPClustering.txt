@@ -23,3 +23,13 @@ INFO 06/18/2022 03:59:32 PM TRAINING: The optimum cluster number is 27
 INFO 06/18/2022 03:59:42 PM TRAINING: Clustering has been done, with cluster column added to dataset
 INFO 06/18/2022 04:39:17 PM TRAINING: The optimum cluster number is 27
 INFO 06/18/2022 04:39:26 PM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/19/2022 11:18:52 AM TRAINING: The optimum cluster number is 27
+INFO 06/19/2022 11:19:03 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/19/2022 11:24:37 AM TRAINING: The optimum cluster number is 27
+INFO 06/19/2022 11:24:47 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/19/2022 11:31:03 AM TRAINING: The optimum cluster number is 27
+INFO 06/19/2022 11:31:13 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/19/2022 11:38:52 AM TRAINING: The optimum cluster number is 27
+INFO 06/19/2022 11:39:03 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/19/2022 11:43:14 AM TRAINING: The optimum cluster number is 27
+INFO 06/19/2022 11:43:24 AM TRAINING: Clustering has been done, with cluster column added to dataset

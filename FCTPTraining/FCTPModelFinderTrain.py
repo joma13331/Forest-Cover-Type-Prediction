@@ -325,13 +325,14 @@ class FCTPModelFinderTrain:
             self.fctp_model_finder_logging.error(message)
             raise e
             
-    def fctp_best_model_from_accuracy(self, accuracy_scores):
+    def fctp_best_model_from_accuracy(self, accuracy_scores, len_test_set):
         """
         :Method Name: fctp_best_model_from_accuracy
         :Description: This method takes in a dictionary with model name as keys and accuracy score as values,
                       it then returns the best model based on highest accuracy score.
 
         :param accuracy_scores: The dictionary of all accuracy scores
+        :param len_test_set: Length of the test set
         :return: The best sklearn model for the given dataset
         :On Failure: Exception
         """
@@ -346,25 +347,29 @@ class FCTPModelFinderTrain:
             # Checking which key has the maximum score
             if keys[ind] == "logistic":
                 # Logging about Logistic Regression as Best Model
-                message = f"{self.operation}: The best model is logistic regressor with accuracy of {values[ind]}"
+                message = f"{self.operation}: The best model is logistic regressor with accuracy of {values[ind]}"\
+                 f"for {len_test_set} instances"
                 self.fctp_model_finder_logging.info(message)
                 return keys[ind], self.logistic_regression
 
             elif keys[ind] == "svc":
                 # Logging about SVC as Best Model
-                message = f"{self.operation}: The best model is svc with accuracy of {values[ind]}"
+                message = f"{self.operation}: The best model is svc with accuracy of {values[ind]}"\
+                 f"for {len_test_set} instances"
                 self.fctp_model_finder_logging.info(message)
                 return keys[ind], self.svc
 
             elif keys[ind] == "rfc":
                 # Logging about Random Forest Classifier as Best Model
-                message = f"{self.operation}: The best model is random forest classifier with accuracy of {values[ind]}"
+                message = f"{self.operation}: The best model is random forest classifier with accuracy of {values[ind]}"\
+                 f"for {len_test_set} instances"
                 self.fctp_model_finder_logging.info(message)
                 return keys[ind], self.rfc
 
             else:
                 # Logging about XGB Classifier as Best Model
-                message = f"{self.operation}: The best model is xgb classifier with accuracy of {values[ind]}"
+                message = f"{self.operation}: The best model is xgb classifier with accuracy of {values[ind]}"\
+                 f"for {len_test_set} instances"
                 self.fctp_model_finder_logging.info(message)
                 return keys[ind], self.xgb
 
@@ -394,10 +399,8 @@ class FCTPModelFinderTrain:
             self.fctp_model_finder_logging.info(message)
 
             # Dictionary of Evaluation Scores
-            roc_auc_scores = {}
             f1_scores = {}
             accuracy_scores = {}
-            confusion_matrices = {}
             
             # Logging about the start of search of the Best Logistic Regression Model
             message = f"{self.operation}: Search for best logistic regressor model started"
@@ -406,12 +409,15 @@ class FCTPModelFinderTrain:
             self.logistic_regression = self.fctp_best_logistic_regressor(train_x, train_y)
             y_pred = self.logistic_regression.predict(test_x)
 
-            # Evaluation Metrics For Best Logistic Regression Model
-            # roc_auc_scores["logistic"] = roc_auc_score(y_true=test_y, y_score=y_pred)
-            # f1_scores["logistic"] = f1_score(y_true=test_y, y_pred=y_pred)
-            accuracy_scores["logistic"] = accuracy_score(y_true=test_y, y_pred=y_pred)
-            # confusion_matrices["logistic"] = confusion_matrix(y_true=test_y, y_pred=y_pred)
+            y_pred = y_pred.reshape(-1,1)
+            test_y = np.array(test_y).reshape(-1,1)
 
+            print(type(y_pred), type(test_y))
+            # Evaluation Metrics For Best Logistic Regression Model
+            # roc_auc_scores["logistic"] = roc_auc_score(y_true=test_y, y_score=y_pred, multi_class='ovr', average='macro')
+            f1_scores["logistic"] = f1_score(y_true=test_y, y_pred=y_pred, average='micro')
+            accuracy_scores["logistic"] = accuracy_score(y_true=test_y, y_pred=y_pred)
+            
             # Logging about the end of search of the Best Logistic Regression Model
             message = f"{self.operation}: Search for best logistic regressor model ended"
             self.fctp_model_finder_logging.info(message)
@@ -423,10 +429,8 @@ class FCTPModelFinderTrain:
             self.svc = self.fctp_best_svc(train_x, train_y)
             y_pred = self.svc.predict(test_x)
             # Evaluation Metrics For Best SVC Model
-            # roc_auc_scores["svc"] = roc_auc_score(y_true=test_y, y_score=y_pred)
-            # f1_scores["svc"] = f1_score(y_true=test_y, y_pred=y_pred)
+            f1_scores["svc"] = f1_score(y_true=test_y, y_pred=y_pred, average='micro')
             accuracy_scores["svc"] = accuracy_score(y_true=test_y, y_pred=y_pred)
-            # confusion_matrices["svc"] = confusion_matrix(y_true=test_y, y_pred=y_pred)
 
             # Logging about the end of search of the Best SVC Model
             message = f"{self.operation}: Search for best svc model ended"
@@ -439,10 +443,8 @@ class FCTPModelFinderTrain:
             self.rfc = self.fctp_best_random_forest(train_x, train_y)
             y_pred = self.rfc.predict(test_x)
             # Evaluation Metrics For Best Random Forest Classifier Model
-            # roc_auc_scores["rfc"] = roc_auc_score(y_true=test_y, y_score=y_pred)
-            # f1_scores["rfc"] = f1_score(y_true=test_y, y_pred=y_pred)
+            f1_scores["rfc"] = f1_score(y_true=test_y, y_pred=y_pred, average='micro')
             accuracy_scores["rfc"] = accuracy_score(y_true=test_y, y_pred=y_pred)
-            # confusion_matrices["rfc"] = confusion_matrix(y_true=test_y, y_pred=y_pred)
 
             # Logging about the end of search of the Best Random Forest Classifier Model
             message = f"{self.operation}: Search for best random forest classifier model ended"
@@ -455,21 +457,20 @@ class FCTPModelFinderTrain:
             self.xgb = self.fctp_best_xgb_classifier(train_x, train_y)
             y_pred = self.xgb.predict(test_x)
             # Evaluation Metrics For Best XGB Classifier Model
-            # roc_auc_scores["xgb"] = roc_auc_score(y_true=test_y, y_score=y_pred)
-            # f1_scores["xgb"] = f1_score(y_true=test_y, y_pred=y_pred)
+            f1_scores["xgb"] = f1_score(y_true=test_y, y_pred=y_pred, average='micro')
             accuracy_scores["xgb"] = accuracy_score(y_true=test_y, y_pred=y_pred)
-            # confusion_matrices["xgb"] = confusion_matrix(y_true=test_y, y_pred=y_pred)
 
             # Logging about the end of search of the Best XGB Classifier Model
             message = f"{self.operation}: Search for best xgb classifier model ended"
             self.fctp_model_finder_logging.info(message)
 
-            print(f"roc_auc scores: {roc_auc_scores}")
             print(f"f1 scores:{f1_scores}")
             print(f"accuracy scores:{accuracy_scores}")
-            print(f"confusion matrices: {confusion_matrices}")
 
-            return self.fctp_best_model_from_accuracy(accuracy_scores)
+            # Length of the test set
+            len_test_set = len(test_x)
+
+            return self.fctp_best_model_from_accuracy(accuracy_scores, len_test_set)
 
         except Exception as e:
             message = f"{self.operation}: There was a problem while obtaining best model : {str(e)}"
