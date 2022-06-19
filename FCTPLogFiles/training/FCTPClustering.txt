@@ -1,0 +1,25 @@
+INFO 06/18/2022 09:19:18 AM TRAINING: The optimum cluster number is 2
+INFO 06/18/2022 09:22:29 AM TRAINING: The optimum cluster number is 2
+INFO 06/18/2022 09:24:55 AM TRAINING: The optimum cluster number is 10
+INFO 06/18/2022 09:29:18 AM TRAINING: The optimum cluster number is 19
+INFO 06/18/2022 09:38:49 AM TRAINING: The optimum cluster number is 24
+INFO 06/18/2022 09:48:48 AM TRAINING: The optimum cluster number is 25
+INFO 06/18/2022 09:48:59 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/18/2022 09:56:59 AM TRAINING: The optimum cluster number is 25
+INFO 06/18/2022 09:57:11 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/18/2022 10:01:07 AM TRAINING: The optimum cluster number is 25
+INFO 06/18/2022 10:01:18 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/18/2022 10:15:24 AM TRAINING: The optimum cluster number is 25
+INFO 06/18/2022 10:15:35 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/18/2022 10:50:54 AM TRAINING: The optimum cluster number is 25
+INFO 06/18/2022 10:51:03 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/18/2022 11:26:00 AM TRAINING: The optimum cluster number is 25
+INFO 06/18/2022 11:26:09 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/18/2022 11:57:14 AM TRAINING: The optimum cluster number is 25
+INFO 06/18/2022 11:57:24 AM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/18/2022 03:14:58 PM TRAINING: The optimum cluster number is 25
+INFO 06/18/2022 03:15:08 PM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/18/2022 03:59:32 PM TRAINING: The optimum cluster number is 27
+INFO 06/18/2022 03:59:42 PM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/18/2022 04:39:17 PM TRAINING: The optimum cluster number is 27
+INFO 06/18/2022 04:39:26 PM TRAINING: Clustering has been done, with cluster column added to dataset

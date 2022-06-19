@@ -344,7 +344,7 @@ class FCTPEda:
                       convert the the features to normal if possible
         :param dataframe: The dataframe which needs to convert its columns to normal if possible.
         :param cont_columns: the features which are continuous in nature
-        :return:
+        :return: Dataframe with continous columns converted to normal if possible
         """
         try:
             # Checking if we are performing training or prediction

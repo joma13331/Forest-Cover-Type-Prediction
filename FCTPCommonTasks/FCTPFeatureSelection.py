@@ -110,7 +110,7 @@ class FCTPFeatureSelection:
             self.fctp_feature_selection_logging.error(message)
             raise e
 
-    def fctp_feature_not_important(self, features, label, threshold=0.1):
+    def fctp_feature_not_important(self, features, label, cat_cols, threshold=0.1):
         """
         :Method Name: fctp_feature_not_important
         :Description: This method determined those features which are not important to determine the output label
@@ -123,9 +123,20 @@ class FCTPFeatureSelection:
         :On Failure: Exception
         """
         try:
+            
+            # List to store the index of discrete columns
+            discrete_index = []
 
+            # List of all columns in the features
+            all_columns = list(features.columns)
+
+            # Looping through all the discrete Columns
+            for feat in cat_cols:
+                # obtaining the index of all discrete columns
+                discrete_index.append(all_columns.index(feat))
+            
             # Check the dependecy for input features to that of the labels
-            mutual_info = mutual_info_classif(features, label)
+            mutual_info = mutual_info_classif(features, label, discrete_features=discrete_index)
             # Form a series of the result
             feature_imp = pd.Series(mutual_info, index=features.columns)
             # Obtain a list of features not important wrt a threshold

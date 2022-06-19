@@ -347,3 +347,6 @@ INFO 06/17/2022 08:31:40 AM TRAINING: column 'Hillshade_3pm' absent in the file.
 INFO 06/17/2022 08:31:40 AM TRAINING: ad files moved to archive: FCTPDIV/ArchivedData/
 INFO 06/17/2022 08:31:40 AM TRAININGBadRaw directory deleted successfully!!!
 INFO 06/17/2022 08:31:40 AM TRAINING: Validated csv files Converted directly to required csv file for future preprocessing
+INFO 06/17/2022 09:13:28 PM TRAINING: Validated csv files Converted directly to required csv file for future preprocessing
+INFO 06/17/2022 09:13:57 PM TRAINING: Validated csv files Converted directly to required csv file for future preprocessing
+INFO 06/17/2022 09:14:12 PM TRAINING: Validated csv files Converted directly to required csv file for future preprocessing

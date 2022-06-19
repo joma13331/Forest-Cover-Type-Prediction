@@ -456,7 +456,7 @@ class FCTPDataFormatValidator:
             df = pd.concat(list_pd)
 
             # Converting the single dataframe into a csv file
-            df.to_csv(self.csv_filename, header=True, index=False)
+            df.to_csv(self.csv_filename, header=True, index=True, index_label="id")
             # Logging about obtaining a single csv file with the validated data
             message = f"{self.operation}: Validated csv files Converted directly to required csv file for future preprocessing"
             self.fctp_data_format_validator_logging.info(message)
