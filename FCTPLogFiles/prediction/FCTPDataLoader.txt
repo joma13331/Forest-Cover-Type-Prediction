@@ -1,0 +1,1 @@
+INFO 06/20/2022 05:13:02 AM PREDICTION: The data is loaded successfully as a pandas dataframe

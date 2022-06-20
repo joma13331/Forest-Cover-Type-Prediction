@@ -1,618 +1,396 @@
-INFO 06/19/2022 11:19:03 AM TRAINING: Search for best model started
-INFO 06/19/2022 11:19:03 AM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 11:19:03 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 11:19:20 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.654559051332728
-INFO 06/19/2022 11:19:20 AM TRAINING: Best Logistic  Regressor trained
-ERROR 06/19/2022 11:19:20 AM TRAINING: There was a problem while obtaining best model : axis 1 is out of bounds for array of dimension 1
-INFO 06/19/2022 11:24:47 AM TRAINING: Search for best model started
-INFO 06/19/2022 11:24:47 AM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 11:24:47 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 11:25:05 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.654559051332728
-INFO 06/19/2022 11:25:05 AM TRAINING: Best Logistic  Regressor trained
-ERROR 06/19/2022 11:25:05 AM TRAINING: There was a problem while obtaining best model : axis 1 is out of bounds for array of dimension 1
-INFO 06/19/2022 11:31:13 AM TRAINING: Search for best model started
-INFO 06/19/2022 11:31:13 AM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 11:31:13 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 11:31:31 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.654559051332728
-INFO 06/19/2022 11:31:31 AM TRAINING: Best Logistic  Regressor trained
-ERROR 06/19/2022 11:31:31 AM TRAINING: There was a problem while obtaining best model : axis 1 is out of bounds for array of dimension 1
-INFO 06/19/2022 11:39:03 AM TRAINING: Search for best model started
-INFO 06/19/2022 11:39:03 AM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 11:39:03 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 11:39:21 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.654559051332728
-INFO 06/19/2022 11:39:21 AM TRAINING: Best Logistic  Regressor trained
-ERROR 06/19/2022 11:39:21 AM TRAINING: There was a problem while obtaining best model : Target scores need to be probabilities for multiclass roc_auc, i.e. they should sum up to 1.0 over classes
-INFO 06/19/2022 11:43:24 AM TRAINING: Search for best model started
-INFO 06/19/2022 11:43:24 AM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 11:43:24 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 11:43:43 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.654559051332728
-INFO 06/19/2022 11:43:43 AM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 11:43:43 AM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 11:43:43 AM TRAINING: Search for best svc model started
-INFO 06/19/2022 11:43:43 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 11:43:51 AM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=scale, C=10, degree =5 with the accuracy score of 0.7052454462902622
-INFO 06/19/2022 11:43:51 AM TRAINING: Best SVC trained
-INFO 06/19/2022 11:43:51 AM TRAINING: Search for best svc model ended
-INFO 06/19/2022 11:43:51 AM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 11:43:51 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 11:52:21 AM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=gini, min_samples_split=3, max_features =sqrt, ccp_alpha=0.0 with the accuracy of 0.7269697131563484
-INFO 06/19/2022 11:52:21 AM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 11:52:21 AM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 11:52:21 AM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 11:52:21 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 12:11:34 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.1, max_depth=20, colsample_bytree=0.5, n_estimators =1000 with the accuracy score of 0.7393622135569681
-INFO 06/19/2022 12:11:38 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 12:11:38 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 12:11:38 PM TRAINING: The best model is xgb classifier with accuracy of 0.739938080495356for 323 instances
-INFO 06/19/2022 12:11:38 PM TRAINING: Search for best model started
-INFO 06/19/2022 12:11:38 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 12:11:38 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 12:11:41 PM TRAINING: The optimum parameters of Logistic Regressor are C=0.01, penalty=l1,solver=saga  with the accuracy score of 0.8941176470588236
-INFO 06/19/2022 12:11:41 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 12:11:41 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 12:11:41 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 12:11:41 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 12:11:43 PM TRAINING: The optimum parameters of SVC are kernel=linear, gamma=scale, C=0.3, degree =2 with the accuracy score of 0.8941176470588236
-INFO 06/19/2022 12:11:43 PM TRAINING: Best SVC trained
-INFO 06/19/2022 12:11:43 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 12:11:43 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 12:11:43 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 12:15:44 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=gini, min_samples_split=3, max_features =auto, ccp_alpha=0.008 with the accuracy of 0.9117647058823529
-INFO 06/19/2022 12:15:44 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 12:15:44 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 12:15:44 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 12:15:44 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 12:18:58 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.01, max_depth=10, colsample_bytree=0.1, n_estimators =300 with the accuracy score of 0.8941176470588236
-INFO 06/19/2022 12:18:58 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 12:18:58 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 12:18:58 PM TRAINING: The best model is logistic regressor with accuracy of 0.8947368421052632for 57 instances
-INFO 06/19/2022 12:18:58 PM TRAINING: Search for best model started
-INFO 06/19/2022 12:18:58 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 12:18:58 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 12:19:17 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.8600067957866123
-INFO 06/19/2022 12:19:17 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 12:19:17 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 12:19:17 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 12:19:17 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 12:19:20 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.8691811077132179
-INFO 06/19/2022 12:19:20 PM TRAINING: Best SVC trained
-INFO 06/19/2022 12:19:20 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 12:19:20 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 12:19:20 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 12:25:03 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=entropy, min_samples_split=2, max_features =log2, ccp_alpha=0.001 with the accuracy of 0.8765545361875638
-INFO 06/19/2022 12:25:03 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 12:25:03 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 12:25:03 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 12:25:03 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 12:36:34 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=15, colsample_bytree=0.4, n_estimators =3000 with the accuracy score of 0.882144070676181
-INFO 06/19/2022 12:36:42 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 12:36:42 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 12:36:42 PM TRAINING: The best model is svc with accuracy of 0.8516483516483516for 182 instances
-INFO 06/19/2022 12:36:42 PM TRAINING: Search for best model started
-INFO 06/19/2022 12:36:42 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 12:36:42 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 12:36:45 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.888888888888889
-INFO 06/19/2022 12:36:45 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 12:36:45 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 12:36:45 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 12:36:45 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 12:36:46 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=0.3, degree =4 with the accuracy score of 0.9555555555555555
-INFO 06/19/2022 12:36:46 PM TRAINING: Best SVC trained
-INFO 06/19/2022 12:36:46 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 12:36:46 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 12:36:46 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 12:41:42 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=gini, min_samples_split=6, max_features =log2, ccp_alpha=0.001 with the accuracy of 0.9777777777777779
-INFO 06/19/2022 12:41:42 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 12:41:42 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 12:41:42 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 12:41:42 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 12:45:15 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=20, colsample_bytree=0.7, n_estimators =3000 with the accuracy score of 0.9555555555555555
-INFO 06/19/2022 12:45:17 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 12:45:17 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 12:45:17 PM TRAINING: The best model is svc with accuracy of 1.0for 15 instances
-INFO 06/19/2022 12:45:17 PM TRAINING: Search for best model started
-INFO 06/19/2022 12:45:17 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 12:45:17 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 12:46:11 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6673985575872369
-INFO 06/19/2022 12:46:12 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 12:46:12 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 12:46:12 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 12:46:12 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 12:46:40 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=scale, C=10, degree =5 with the accuracy score of 0.7235535805347126
-INFO 06/19/2022 12:46:40 PM TRAINING: Best SVC trained
-INFO 06/19/2022 12:46:41 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 12:46:41 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 12:46:41 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 01:02:27 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=entropy, min_samples_split=2, max_features =log2, ccp_alpha=0.0 with the accuracy of 0.7743090260071391
-INFO 06/19/2022 01:02:27 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 01:02:27 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 01:02:27 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 01:02:27 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 01:58:53 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.1, max_depth=15, colsample_bytree=0.7, n_estimators =1000 with the accuracy score of 0.8018183142711445
-INFO 06/19/2022 01:59:04 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 01:59:04 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 01:59:04 PM TRAINING: The best model is xgb classifier with accuracy of 0.8058252427184466for 618 instances
-INFO 06/19/2022 01:59:04 PM TRAINING: Search for best model started
-INFO 06/19/2022 01:59:04 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 01:59:04 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 01:59:09 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l1,solver=saga  with the accuracy score of 0.6347619047619047
-INFO 06/19/2022 01:59:09 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 01:59:09 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 01:59:09 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 01:59:09 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 01:59:10 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =3 with the accuracy score of 0.7214285714285715
-INFO 06/19/2022 01:59:10 PM TRAINING: Best SVC trained
-INFO 06/19/2022 01:59:10 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 01:59:10 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 01:59:10 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 02:03:09 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=2, max_features =auto, ccp_alpha=0.006 with the accuracy of 0.6914285714285715
-INFO 06/19/2022 02:03:09 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 02:03:09 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 02:03:09 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 02:03:09 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 02:11:30 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=15, colsample_bytree=0.6, n_estimators =300 with the accuracy score of 0.7314285714285715
-INFO 06/19/2022 02:11:31 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 02:11:31 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 02:11:31 PM TRAINING: The best model is logistic regressor with accuracy of 0.6857142857142857for 35 instances
-INFO 06/19/2022 02:11:31 PM TRAINING: Search for best model started
-INFO 06/19/2022 02:11:31 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 02:11:31 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 02:11:45 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6611336032388664
-INFO 06/19/2022 02:11:45 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 02:11:45 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 02:11:45 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 02:11:45 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 02:11:47 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.7076923076923077
-INFO 06/19/2022 02:11:47 PM TRAINING: Best SVC trained
-INFO 06/19/2022 02:11:47 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 02:11:47 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 02:11:47 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 02:16:27 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=entropy, min_samples_split=2, max_features =log2, ccp_alpha=0.006 with the accuracy of 0.6816464237516869
-INFO 06/19/2022 02:16:27 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 02:16:27 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 02:16:27 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 02:16:27 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 02:24:57 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=1, max_depth=10, colsample_bytree=0.7, n_estimators =300 with the accuracy score of 0.682051282051282
-INFO 06/19/2022 02:24:58 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 02:24:58 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 02:24:58 PM TRAINING: The best model is xgb classifier with accuracy of 0.8for 65 instances
-INFO 06/19/2022 02:24:58 PM TRAINING: Search for best model started
-INFO 06/19/2022 02:24:58 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 02:24:58 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 02:25:18 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.7246079163554893
-INFO 06/19/2022 02:25:19 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 02:25:19 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 02:25:19 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 02:25:19 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 02:25:22 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=scale, C=10, degree =4 with the accuracy score of 0.7341672890216578
-INFO 06/19/2022 02:25:22 PM TRAINING: Best SVC trained
-INFO 06/19/2022 02:25:22 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 02:25:22 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 02:25:22 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 02:31:27 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=entropy, min_samples_split=4, max_features =auto, ccp_alpha=0.008 with the accuracy of 0.7534727408513817
-INFO 06/19/2022 02:31:27 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 02:31:28 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 02:31:28 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 02:31:28 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 02:44:40 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=15, colsample_bytree=0.4, n_estimators =1000 with the accuracy score of 0.7532486930545185
-INFO 06/19/2022 02:44:44 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 02:44:44 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 02:44:44 PM TRAINING: The best model is svc with accuracy of 0.7398843930635838for 173 instances
-INFO 06/19/2022 02:44:44 PM TRAINING: Search for best model started
-INFO 06/19/2022 02:44:44 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 02:44:44 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 02:44:54 PM TRAINING: The optimum parameters of Logistic Regressor are C=0.3, penalty=l2,solver=newton-cg  with the accuracy score of 0.9331628303495311
-INFO 06/19/2022 02:44:54 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 02:44:54 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 02:44:54 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 02:44:54 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 02:44:55 PM TRAINING: The optimum parameters of SVC are kernel=linear, gamma=scale, C=1, degree =2 with the accuracy score of 0.9418584825234442
-INFO 06/19/2022 02:44:55 PM TRAINING: Best SVC trained
-INFO 06/19/2022 02:44:55 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 02:44:55 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 02:44:55 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 02:49:39 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=300, criterion=gini, min_samples_split=2, max_features =sqrt, ccp_alpha=0.0 with the accuracy of 0.9302216538789428
-INFO 06/19/2022 02:49:39 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 02:49:39 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 02:49:39 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 02:49:39 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 02:58:30 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.1, max_depth=15, colsample_bytree=0.6, n_estimators =1000 with the accuracy score of 0.9418584825234442
-INFO 06/19/2022 02:58:32 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 02:58:32 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 02:58:32 PM TRAINING: The best model is svc with accuracy of 0.9391304347826087for 115 instances
-INFO 06/19/2022 02:58:32 PM TRAINING: Search for best model started
-INFO 06/19/2022 02:58:32 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 02:58:32 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 02:58:42 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l1,solver=saga  with the accuracy score of 0.7947209653092004
-INFO 06/19/2022 02:58:42 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 02:58:42 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 02:58:42 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 02:58:42 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 02:58:45 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =3 with the accuracy score of 0.8024132730015083
-INFO 06/19/2022 02:58:45 PM TRAINING: Best SVC trained
-INFO 06/19/2022 02:58:45 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 02:58:45 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 02:58:45 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 03:03:33 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=gini, min_samples_split=5, max_features =auto, ccp_alpha=0.0 with the accuracy of 0.8023378582202112
-INFO 06/19/2022 03:03:34 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 03:03:34 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 03:03:34 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 03:03:34 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 03:16:11 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=15, colsample_bytree=0.7, n_estimators =3000 with the accuracy score of 0.8103318250377074
-INFO 06/19/2022 03:16:16 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 03:16:16 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 03:16:16 PM TRAINING: The best model is logistic regressor with accuracy of 0.8735632183908046for 87 instances
-INFO 06/19/2022 03:16:16 PM TRAINING: Search for best model started
-INFO 06/19/2022 03:16:16 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 03:16:16 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 03:16:29 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l1,solver=saga  with the accuracy score of 0.9073398784478728
-INFO 06/19/2022 03:16:29 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 03:16:29 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 03:16:29 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 03:16:29 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 03:16:31 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=1, degree =5 with the accuracy score of 0.9073398784478728
-INFO 06/19/2022 03:16:31 PM TRAINING: Best SVC trained
-INFO 06/19/2022 03:16:31 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 03:16:31 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 03:16:31 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 03:21:32 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=entropy, min_samples_split=3, max_features =auto, ccp_alpha=0.003 with the accuracy of 0.9246143057503506
-INFO 06/19/2022 03:21:32 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 03:21:32 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 03:21:32 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 03:21:32 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 03:31:17 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=20, colsample_bytree=0.3, n_estimators =300 with the accuracy score of 0.9244974287050024
-INFO 06/19/2022 03:31:18 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 03:31:18 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 03:31:18 PM TRAINING: The best model is random forest classifier with accuracy of 0.9548387096774194for 155 instances
-INFO 06/19/2022 03:31:18 PM TRAINING: Search for best model started
-INFO 06/19/2022 03:31:18 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 03:31:18 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 03:31:33 PM TRAINING: The optimum parameters of Logistic Regressor are C=1, penalty=l2,solver=newton-cg  with the accuracy score of 0.9307977736549166
-INFO 06/19/2022 03:31:33 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 03:31:33 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 03:31:33 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 03:31:33 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 03:31:35 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=scale, C=10, degree =4 with the accuracy score of 0.940981240981241
-INFO 06/19/2022 03:31:35 PM TRAINING: Best SVC trained
-INFO 06/19/2022 03:31:35 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 03:31:35 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 03:31:35 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 03:37:00 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=gini, min_samples_split=6, max_features =sqrt, ccp_alpha=0.003 with the accuracy of 0.9389404246547104
-INFO 06/19/2022 03:37:00 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 03:37:00 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 03:37:00 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 03:37:00 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 03:46:45 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.01, max_depth=15, colsample_bytree=0.4, n_estimators =300 with the accuracy score of 0.9327767470624613
-INFO 06/19/2022 03:46:46 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 03:46:46 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 03:46:46 PM TRAINING: The best model is svc with accuracy of 0.926829268292683for 164 instances
-INFO 06/19/2022 03:46:46 PM TRAINING: Search for best model started
-INFO 06/19/2022 03:46:46 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 03:46:46 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 03:47:07 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6719958202716824
-INFO 06/19/2022 03:47:07 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 03:47:07 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 03:47:07 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 03:47:07 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 03:47:10 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.747753396029258
-INFO 06/19/2022 03:47:10 PM TRAINING: Best SVC trained
-INFO 06/19/2022 03:47:10 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 03:47:10 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 03:47:10 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 03:52:53 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=gini, min_samples_split=2, max_features =sqrt, ccp_alpha=0.001 with the accuracy of 0.7865726227795193
-INFO 06/19/2022 03:52:53 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 03:52:53 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 03:52:53 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 03:52:53 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 04:04:49 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.01, max_depth=20, colsample_bytree=0.6, n_estimators =300 with the accuracy score of 0.7615203761755486
-INFO 06/19/2022 04:04:51 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 04:04:51 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 04:04:51 PM TRAINING: The best model is svc with accuracy of 0.7054794520547946for 146 instances
-INFO 06/19/2022 04:04:51 PM TRAINING: Search for best model started
-INFO 06/19/2022 04:04:51 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 04:04:51 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 04:05:04 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.7754285714285715
-INFO 06/19/2022 04:05:04 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 04:05:04 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 04:05:04 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 04:05:04 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 04:05:06 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =3 with the accuracy score of 0.7952653061224491
-INFO 06/19/2022 04:05:06 PM TRAINING: Best SVC trained
-INFO 06/19/2022 04:05:06 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 04:05:06 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 04:05:06 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 04:09:52 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=gini, min_samples_split=4, max_features =log2, ccp_alpha=0.001 with the accuracy of 0.7830204081632652
-INFO 06/19/2022 04:09:52 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 04:09:52 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 04:09:52 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 04:09:52 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 04:19:34 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=15, colsample_bytree=0.4, n_estimators =3000 with the accuracy score of 0.7671836734693878
-INFO 06/19/2022 04:19:41 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 04:19:41 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 04:19:41 PM TRAINING: The best model is random forest classifier with accuracy of 0.7469879518072289for 83 instances
-INFO 06/19/2022 04:19:41 PM TRAINING: Search for best model started
-INFO 06/19/2022 04:19:41 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 04:19:41 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 04:20:02 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6285714285714287
-INFO 06/19/2022 04:20:02 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 04:20:02 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 04:20:02 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 04:20:02 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 04:20:06 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=scale, C=10, degree =4 with the accuracy score of 0.6857142857142857
-INFO 06/19/2022 04:20:06 PM TRAINING: Best SVC trained
-INFO 06/19/2022 04:20:06 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 04:20:06 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 04:20:06 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 04:26:29 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=3, max_features =sqrt, ccp_alpha=0.003 with the accuracy of 0.7204081632653061
-INFO 06/19/2022 04:26:29 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 04:26:29 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 04:26:29 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 04:26:29 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 04:39:55 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.1, max_depth=10, colsample_bytree=0.3, n_estimators =300 with the accuracy score of 0.6816326530612244
-INFO 06/19/2022 04:39:56 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 04:39:56 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 04:39:56 PM TRAINING: The best model is random forest classifier with accuracy of 0.6585365853658537for 164 instances
-INFO 06/19/2022 04:39:56 PM TRAINING: Search for best model started
-INFO 06/19/2022 04:39:56 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 04:39:56 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 04:40:13 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6708196721311477
-INFO 06/19/2022 04:40:13 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 04:40:13 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 04:40:13 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 04:40:13 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 04:40:15 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.7302185792349727
-INFO 06/19/2022 04:40:15 PM TRAINING: Best SVC trained
-INFO 06/19/2022 04:40:15 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 04:40:15 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 04:40:15 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 04:45:31 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=gini, min_samples_split=2, max_features =sqrt, ccp_alpha=0.001 with the accuracy of 0.7565573770491804
-INFO 06/19/2022 04:45:31 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 04:45:31 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 04:45:31 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 04:45:31 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 04:57:17 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=20, colsample_bytree=0.2, n_estimators =300 with the accuracy score of 0.7303825136612022
-INFO 06/19/2022 04:57:18 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 04:57:18 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 04:57:18 PM TRAINING: The best model is svc with accuracy of 0.696078431372549for 102 instances
-INFO 06/19/2022 04:57:18 PM TRAINING: Search for best model started
-INFO 06/19/2022 04:57:18 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 04:57:18 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 04:57:24 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l1,solver=saga  with the accuracy score of 0.8373333333333333
-INFO 06/19/2022 04:57:24 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 04:57:24 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 04:57:24 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 04:57:24 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 04:57:25 PM TRAINING: The optimum parameters of SVC are kernel=rbf, gamma=auto, C=10, degree =2 with the accuracy score of 0.9019999999999999
-INFO 06/19/2022 04:57:25 PM TRAINING: Best SVC trained
-INFO 06/19/2022 04:57:25 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 04:57:25 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 04:57:25 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 05:01:44 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=entropy, min_samples_split=5, max_features =log2, ccp_alpha=0.007 with the accuracy of 0.9186666666666667
-INFO 06/19/2022 05:01:44 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 05:01:44 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 05:01:44 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 05:01:44 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 05:10:20 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=10, colsample_bytree=0.2, n_estimators =1000 with the accuracy score of 0.9026666666666667
-INFO 06/19/2022 05:10:22 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 05:10:22 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 05:10:22 PM TRAINING: The best model is svc with accuracy of 0.9047619047619048for 42 instances
-INFO 06/19/2022 05:10:22 PM TRAINING: Search for best model started
-INFO 06/19/2022 05:10:22 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 05:10:22 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 05:10:52 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.8481439820022496
-INFO 06/19/2022 05:10:52 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 05:10:52 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 05:10:52 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 05:10:52 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 05:10:56 PM TRAINING: The optimum parameters of SVC are kernel=linear, gamma=scale, C=10, degree =2 with the accuracy score of 0.8513060867391576
-INFO 06/19/2022 05:10:56 PM TRAINING: Best SVC trained
-INFO 06/19/2022 05:10:56 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 05:10:56 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 05:10:56 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 05:17:53 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=2, max_features =auto, ccp_alpha=0.008 with the accuracy of 0.8560304961879766
-INFO 06/19/2022 05:17:53 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 05:17:53 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 05:17:53 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 05:17:53 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 05:32:47 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=15, colsample_bytree=0.4, n_estimators =300 with the accuracy score of 0.8654918135233096
-INFO 06/19/2022 05:32:48 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 05:32:48 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 05:32:48 PM TRAINING: The best model is svc with accuracy of 0.8720379146919431for 211 instances
-INFO 06/19/2022 05:32:48 PM TRAINING: Search for best model started
-INFO 06/19/2022 05:32:48 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 05:32:48 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 05:32:56 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l2,solver=sag  with the accuracy score of 0.8572327044025159
-INFO 06/19/2022 05:32:56 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 05:32:56 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 05:32:56 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 05:32:56 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 05:32:58 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.8835080363382251
-INFO 06/19/2022 05:32:58 PM TRAINING: Best SVC trained
-INFO 06/19/2022 05:32:58 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 05:32:58 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 05:32:58 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 05:37:46 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=gini, min_samples_split=2, max_features =sqrt, ccp_alpha=0.001 with the accuracy of 0.8797344514325646
-INFO 06/19/2022 05:37:46 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 05:37:46 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 05:37:46 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 05:37:46 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 05:47:12 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=1, max_depth=15, colsample_bytree=0.3, n_estimators =300 with the accuracy score of 0.8720475192173305
-INFO 06/19/2022 05:47:12 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 05:47:12 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 05:47:12 PM TRAINING: The best model is logistic regressor with accuracy of 0.8426966292134831for 89 instances
-INFO 06/19/2022 05:47:12 PM TRAINING: Search for best model started
-INFO 06/19/2022 05:47:12 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 05:47:12 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 05:47:27 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l1,solver=saga  with the accuracy score of 0.8338028169014086
-INFO 06/19/2022 05:47:27 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 05:47:27 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 05:47:27 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 05:47:27 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 05:47:29 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =4 with the accuracy score of 0.867605633802817
-INFO 06/19/2022 05:47:29 PM TRAINING: Best SVC trained
-INFO 06/19/2022 05:47:29 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 05:47:29 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 05:47:29 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 05:52:38 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=entropy, min_samples_split=4, max_features =auto, ccp_alpha=0.009000000000000001 with the accuracy of 0.8563380281690142
-INFO 06/19/2022 05:52:38 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 05:52:38 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 05:52:38 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 05:52:38 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 06:02:46 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.01, max_depth=20, colsample_bytree=0.2, n_estimators =1000 with the accuracy score of 0.856338028169014
-INFO 06/19/2022 06:02:50 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 06:02:50 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 06:02:50 PM TRAINING: The best model is svc with accuracy of 0.865546218487395for 119 instances
-INFO 06/19/2022 06:02:50 PM TRAINING: Search for best model started
-INFO 06/19/2022 06:02:50 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 06:02:50 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 06:03:04 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l2,solver=lbfgs  with the accuracy score of 0.5330816746739877
-INFO 06/19/2022 06:03:04 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 06:03:04 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 06:03:04 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 06:03:04 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 06:03:07 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.7472889498970486
-INFO 06/19/2022 06:03:07 PM TRAINING: Best SVC trained
-INFO 06/19/2022 06:03:07 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 06:03:07 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 06:03:07 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 06:08:46 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=300, criterion=gini, min_samples_split=3, max_features =log2, ccp_alpha=0.002 with the accuracy of 0.8458705101807367
-INFO 06/19/2022 06:08:46 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 06:08:46 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 06:08:46 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 06:08:46 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 06:20:54 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=10, colsample_bytree=0.2, n_estimators =300 with the accuracy score of 0.8371539693433997
-INFO 06/19/2022 06:20:55 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 06:20:55 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 06:20:55 PM TRAINING: The best model is random forest classifier with accuracy of 0.8717948717948718for 156 instances
-INFO 06/19/2022 06:20:55 PM TRAINING: Search for best model started
-INFO 06/19/2022 06:20:55 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 06:20:55 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 06:21:11 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l1,solver=saga  with the accuracy score of 0.9107262302914478
-INFO 06/19/2022 06:21:11 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 06:21:11 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 06:21:11 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 06:21:11 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 06:21:14 PM TRAINING: The optimum parameters of SVC are kernel=linear, gamma=scale, C=3, degree =2 with the accuracy score of 0.9019827998088867
-INFO 06/19/2022 06:21:14 PM TRAINING: Best SVC trained
-INFO 06/19/2022 06:21:14 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 06:21:14 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 06:21:14 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 06:26:44 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=gini, min_samples_split=3, max_features =sqrt, ccp_alpha=0.002 with the accuracy of 0.8802675585284282
-INFO 06/19/2022 06:26:44 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 06:26:45 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 06:26:45 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 06:26:45 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 06:40:07 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.1, max_depth=20, colsample_bytree=0.7, n_estimators =300 with the accuracy score of 0.895484949832776
-INFO 06/19/2022 06:40:08 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 06:40:08 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 06:40:08 PM TRAINING: The best model is logistic regressor with accuracy of 0.9215686274509803for 153 instances
-INFO 06/19/2022 06:40:08 PM TRAINING: Search for best model started
-INFO 06/19/2022 06:40:08 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 06:40:08 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 06:40:35 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l2,solver=sag  with the accuracy score of 0.904367816091954
-INFO 06/19/2022 06:40:35 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 06:40:35 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 06:40:35 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 06:40:35 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 06:40:42 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=scale, C=10, degree =4 with the accuracy score of 0.9098946360153256
-INFO 06/19/2022 06:40:42 PM TRAINING: Best SVC trained
-INFO 06/19/2022 06:40:42 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 06:40:42 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 06:40:42 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 06:47:15 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=entropy, min_samples_split=2, max_features =sqrt, ccp_alpha=0.0 with the accuracy of 0.9362547892720308
-INFO 06/19/2022 06:47:16 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 06:47:16 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 06:47:16 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 06:47:16 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 07:04:29 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.1, max_depth=15, colsample_bytree=0.4, n_estimators =1000 with the accuracy score of 0.9459386973180077
-INFO 06/19/2022 07:04:32 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 07:04:32 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 07:04:32 PM TRAINING: The best model is xgb classifier with accuracy of 0.946058091286307for 241 instances
-INFO 06/19/2022 07:04:32 PM TRAINING: Search for best model started
-INFO 06/19/2022 07:04:32 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 07:04:32 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 07:04:50 PM TRAINING: The optimum parameters of Logistic Regressor are C=1, penalty=l1,solver=saga  with the accuracy score of 0.5646749421418051
-INFO 06/19/2022 07:04:50 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 07:04:50 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 07:04:50 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 07:04:50 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 07:04:54 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.7103934357248054
-INFO 06/19/2022 07:04:54 PM TRAINING: Best SVC trained
-INFO 06/19/2022 07:04:54 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 07:04:54 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 07:04:54 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 07:11:10 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=6, max_features =auto, ccp_alpha=0.001 with the accuracy of 0.772017673048601
-INFO 06/19/2022 07:11:11 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 07:11:11 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 07:11:11 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 07:11:11 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 07:23:05 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=20, colsample_bytree=0.6, n_estimators =300 with the accuracy score of 0.7616873553545129
-INFO 06/19/2022 07:23:06 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 07:23:06 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 07:23:06 PM TRAINING: The best model is xgb classifier with accuracy of 0.7975460122699386for 163 instances
-INFO 06/19/2022 07:23:06 PM TRAINING: Search for best model started
-INFO 06/19/2022 07:23:06 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 07:23:06 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 07:23:11 PM TRAINING: The optimum parameters of Logistic Regressor are C=1, penalty=l2,solver=newton-cg  with the accuracy score of 0.8824615384615384
-INFO 06/19/2022 07:23:11 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 07:23:11 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 07:23:11 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 07:23:11 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 07:23:12 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=0.3, degree =4 with the accuracy score of 0.9049230769230769
-INFO 06/19/2022 07:23:12 PM TRAINING: Best SVC trained
-INFO 06/19/2022 07:23:12 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 07:23:12 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 07:23:12 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 07:27:22 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=entropy, min_samples_split=4, max_features =sqrt, ccp_alpha=0.007 with the accuracy of 0.889846153846154
-INFO 06/19/2022 07:27:22 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 07:27:23 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 07:27:23 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 07:27:23 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 07:36:24 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=20, colsample_bytree=0.3, n_estimators =3000 with the accuracy score of 0.8889230769230769
-INFO 06/19/2022 07:36:29 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 07:36:29 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 07:36:29 PM TRAINING: The best model is logistic regressor with accuracy of 0.9302325581395349for 43 instances
-INFO 06/19/2022 07:36:29 PM TRAINING: Search for best model started
-INFO 06/19/2022 07:36:29 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 07:36:29 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 07:36:33 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l2,solver=newton-cg  with the accuracy score of 0.9616666666666667
-INFO 06/19/2022 07:36:33 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 07:36:33 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 07:36:33 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 07:36:33 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 07:36:34 PM TRAINING: The optimum parameters of SVC are kernel=linear, gamma=scale, C=0.3, degree =2 with the accuracy score of 0.9608333333333334
-INFO 06/19/2022 07:36:34 PM TRAINING: Best SVC trained
-INFO 06/19/2022 07:36:34 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 07:36:34 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 07:36:34 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 07:40:37 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=300, criterion=gini, min_samples_split=6, max_features =log2, ccp_alpha=0.006 with the accuracy of 0.9608333333333334
-INFO 06/19/2022 07:40:38 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 07:40:38 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 07:40:38 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 07:40:38 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 07:44:17 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=20, colsample_bytree=0.8, n_estimators =3000 with the accuracy score of 0.9608333333333334
-INFO 06/19/2022 07:44:19 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 07:44:19 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 07:44:19 PM TRAINING: The best model is logistic regressor with accuracy of 0.9615384615384616for 26 instances
-INFO 06/19/2022 07:44:19 PM TRAINING: Search for best model started
-INFO 06/19/2022 07:44:19 PM TRAINING: Search for best logistic regressor model started
-INFO 06/19/2022 07:44:19 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
-INFO 06/19/2022 07:44:24 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l1,solver=saga  with the accuracy score of 0.7934566145092461
-INFO 06/19/2022 07:44:24 PM TRAINING: Best Logistic  Regressor trained
-INFO 06/19/2022 07:44:24 PM TRAINING: Search for best logistic regressor model ended
-INFO 06/19/2022 07:44:24 PM TRAINING: Search for best svc model started
-INFO 06/19/2022 07:44:24 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
-INFO 06/19/2022 07:44:26 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =2 with the accuracy score of 0.8305832147937411
-INFO 06/19/2022 07:44:26 PM TRAINING: Best SVC trained
-INFO 06/19/2022 07:44:26 PM TRAINING: Search for best svc model ended
-INFO 06/19/2022 07:44:26 PM TRAINING: Search for best random forest classifier model started
-INFO 06/19/2022 07:44:26 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
-INFO 06/19/2022 07:49:02 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=gini, min_samples_split=4, max_features =sqrt, ccp_alpha=0.006 with the accuracy of 0.814651493598862
-INFO 06/19/2022 07:49:02 PM TRAINING: Best random forest classifier trained
-INFO 06/19/2022 07:49:02 PM TRAINING: Search for best random forest classifier model ended
-INFO 06/19/2022 07:49:02 PM TRAINING: Search for best xgb classifier model started
-INFO 06/19/2022 07:49:02 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
-INFO 06/19/2022 07:57:44 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=10, colsample_bytree=0.3, n_estimators =1000 with the accuracy score of 0.8201991465149361
-INFO 06/19/2022 07:57:46 PM TRAINING: Best xgb classifier trained
-INFO 06/19/2022 07:57:46 PM TRAINING: Search for best xgb classifier model ended
-INFO 06/19/2022 07:57:46 PM TRAINING: The best model is svc with accuracy of 0.84375for 64 instances
+INFO 06/19/2022 08:36:58 PM TRAINING: Search for best model started
+INFO 06/19/2022 08:36:58 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 08:36:58 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 08:37:55 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l1,solver=saga  with the accuracy score of 0.7307647976133975
+INFO 06/19/2022 08:37:55 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 08:37:55 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 08:37:55 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 08:37:55 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 08:38:16 PM TRAINING: The optimum parameters of SVC are kernel=rbf, gamma=auto, C=10, degree =2 with the accuracy score of 0.742406264831514
+INFO 06/19/2022 08:38:17 PM TRAINING: Best SVC trained
+INFO 06/19/2022 08:38:17 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 08:38:17 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 08:38:17 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 08:51:33 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=3, max_features =auto, ccp_alpha=0.003 with the accuracy of 0.7552478134110787
+INFO 06/19/2022 08:51:33 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 08:51:34 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 08:51:34 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 08:51:34 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/19/2022 09:24:20 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.01, max_depth=10, colsample_bytree=0.4, n_estimators =1000 with the accuracy score of 0.762221167536782
+INFO 06/19/2022 09:24:34 PM TRAINING: Best xgb classifier trained
+INFO 06/19/2022 09:24:34 PM TRAINING: Search for best xgb classifier model ended
+INFO 06/19/2022 09:24:34 PM TRAINING: The best model is xgb classifier with accuracy of 0.7835951134380453for 573 instances
+INFO 06/19/2022 09:24:34 PM TRAINING: Search for best model started
+INFO 06/19/2022 09:24:34 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 09:24:34 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 09:24:52 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.8600067957866123
+INFO 06/19/2022 09:24:52 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 09:24:52 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 09:24:52 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 09:24:52 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 09:24:55 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.8691811077132179
+INFO 06/19/2022 09:24:55 PM TRAINING: Best SVC trained
+INFO 06/19/2022 09:24:55 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 09:24:55 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 09:24:55 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 09:30:56 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=entropy, min_samples_split=4, max_features =sqrt, ccp_alpha=0.009000000000000001 with the accuracy of 0.8802242609582059
+INFO 06/19/2022 09:30:57 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 09:30:57 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 09:30:57 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 09:30:57 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/19/2022 09:42:17 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=15, colsample_bytree=0.7, n_estimators =3000 with the accuracy score of 0.8857798165137615
+INFO 06/19/2022 09:42:23 PM TRAINING: Best xgb classifier trained
+INFO 06/19/2022 09:42:23 PM TRAINING: Search for best xgb classifier model ended
+INFO 06/19/2022 09:42:23 PM TRAINING: The best model is svc with accuracy of 0.8516483516483516for 182 instances
+INFO 06/19/2022 09:42:23 PM TRAINING: Search for best model started
+INFO 06/19/2022 09:42:23 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 09:42:23 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 09:42:36 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6611336032388664
+INFO 06/19/2022 09:42:36 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 09:42:36 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 09:42:36 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 09:42:36 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 09:42:37 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.7076923076923077
+INFO 06/19/2022 09:42:37 PM TRAINING: Best SVC trained
+INFO 06/19/2022 09:42:37 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 09:42:37 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 09:42:37 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 09:47:21 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=2, max_features =sqrt, ccp_alpha=0.007 with the accuracy of 0.6812415654520917
+INFO 06/19/2022 09:47:21 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 09:47:21 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 09:47:21 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 09:47:21 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/19/2022 09:56:52 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=1, max_depth=15, colsample_bytree=0.7, n_estimators =3000 with the accuracy score of 0.682051282051282
+INFO 06/19/2022 09:56:59 PM TRAINING: Best xgb classifier trained
+INFO 06/19/2022 09:56:59 PM TRAINING: Search for best xgb classifier model ended
+INFO 06/19/2022 09:56:59 PM TRAINING: The best model is xgb classifier with accuracy of 0.7692307692307693for 65 instances
+INFO 06/19/2022 09:56:59 PM TRAINING: Search for best model started
+INFO 06/19/2022 09:56:59 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 09:56:59 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 09:57:23 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6736997360658282
+INFO 06/19/2022 09:57:23 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 09:57:23 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 09:57:23 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 09:57:23 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 09:57:28 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.7018785902810122
+INFO 06/19/2022 09:57:28 PM TRAINING: Best SVC trained
+INFO 06/19/2022 09:57:28 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 09:57:28 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 09:57:28 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 10:04:01 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=3, max_features =sqrt, ccp_alpha=0.0 with the accuracy of 0.7301505977332712
+INFO 06/19/2022 10:04:01 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 10:04:01 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 10:04:01 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 10:04:01 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/19/2022 10:16:58 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=15, colsample_bytree=0.6, n_estimators =1000 with the accuracy score of 0.7495109455053564
+INFO 06/19/2022 10:17:03 PM TRAINING: Best xgb classifier trained
+INFO 06/19/2022 10:17:03 PM TRAINING: Search for best xgb classifier model ended
+INFO 06/19/2022 10:17:03 PM TRAINING: The best model is svc with accuracy of 0.7789473684210526for 190 instances
+INFO 06/19/2022 10:17:03 PM TRAINING: Search for best model started
+INFO 06/19/2022 10:17:03 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 10:17:03 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 10:17:12 PM TRAINING: The optimum parameters of Logistic Regressor are C=0.3, penalty=l2,solver=newton-cg  with the accuracy score of 0.9331628303495311
+INFO 06/19/2022 10:17:12 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 10:17:12 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 10:17:12 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 10:17:12 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 10:17:14 PM TRAINING: The optimum parameters of SVC are kernel=linear, gamma=scale, C=1, degree =2 with the accuracy score of 0.9418584825234442
+INFO 06/19/2022 10:17:14 PM TRAINING: Best SVC trained
+INFO 06/19/2022 10:17:14 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 10:17:14 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 10:17:14 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 10:21:50 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=gini, min_samples_split=2, max_features =auto, ccp_alpha=0.003 with the accuracy of 0.9302216538789428
+INFO 06/19/2022 10:21:50 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 10:21:50 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 10:21:50 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 10:21:50 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/19/2022 10:31:04 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=1, max_depth=20, colsample_bytree=0.4, n_estimators =1000 with the accuracy score of 0.9418158567774937
+INFO 06/19/2022 10:31:05 PM TRAINING: Best xgb classifier trained
+INFO 06/19/2022 10:31:05 PM TRAINING: Search for best xgb classifier model ended
+INFO 06/19/2022 10:31:05 PM TRAINING: The best model is svc with accuracy of 0.9391304347826087for 115 instances
+INFO 06/19/2022 10:31:05 PM TRAINING: Search for best model started
+INFO 06/19/2022 10:31:05 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 10:31:05 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 10:31:27 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.9126159554730984
+INFO 06/19/2022 10:31:27 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 10:31:27 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 10:31:27 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 10:31:27 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 10:31:30 PM TRAINING: The optimum parameters of SVC are kernel=linear, gamma=scale, C=10, degree =2 with the accuracy score of 0.9106163677592249
+INFO 06/19/2022 10:31:30 PM TRAINING: Best SVC trained
+INFO 06/19/2022 10:31:30 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 10:31:30 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 10:31:30 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 10:36:47 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=gini, min_samples_split=3, max_features =log2, ccp_alpha=0.002 with the accuracy of 0.9247990105132964
+INFO 06/19/2022 10:36:47 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 10:36:47 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 10:36:47 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 10:36:47 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/19/2022 10:47:02 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=1, max_depth=10, colsample_bytree=0.3, n_estimators =300 with the accuracy score of 0.9288806431663575
+INFO 06/19/2022 10:47:03 PM TRAINING: Best xgb classifier trained
+INFO 06/19/2022 10:47:03 PM TRAINING: Search for best xgb classifier model ended
+INFO 06/19/2022 10:47:03 PM TRAINING: The best model is xgb classifier with accuracy of 0.9454545454545454for 165 instances
+INFO 06/19/2022 10:47:03 PM TRAINING: Search for best model started
+INFO 06/19/2022 10:47:03 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 10:47:03 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 10:47:18 PM TRAINING: The optimum parameters of Logistic Regressor are C=1, penalty=l2,solver=newton-cg  with the accuracy score of 0.8956630525437866
+INFO 06/19/2022 10:47:18 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 10:47:18 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 10:47:18 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 10:47:18 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 10:47:21 PM TRAINING: The optimum parameters of SVC are kernel=rbf, gamma=auto, C=10, degree =2 with the accuracy score of 0.9395996663886572
+INFO 06/19/2022 10:47:21 PM TRAINING: Best SVC trained
+INFO 06/19/2022 10:47:21 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 10:47:21 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 10:47:21 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 10:53:03 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=gini, min_samples_split=5, max_features =sqrt, ccp_alpha=0.001 with the accuracy of 0.9322935779816515
+INFO 06/19/2022 10:53:04 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 10:53:04 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 10:53:04 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 10:53:04 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/19/2022 11:03:29 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=1, max_depth=20, colsample_bytree=0.7, n_estimators =300 with the accuracy score of 0.9303586321934947
+INFO 06/19/2022 11:03:30 PM TRAINING: Best xgb classifier trained
+INFO 06/19/2022 11:03:30 PM TRAINING: Search for best xgb classifier model ended
+INFO 06/19/2022 11:03:30 PM TRAINING: The best model is svc with accuracy of 0.9230769230769231for 182 instances
+INFO 06/19/2022 11:03:30 PM TRAINING: Search for best model started
+INFO 06/19/2022 11:03:30 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 11:03:30 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 11:03:47 PM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l2,solver=newton-cg  with the accuracy score of 0.6775128564749884
+INFO 06/19/2022 11:03:47 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 11:03:47 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 11:03:47 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 11:03:47 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 11:03:50 PM TRAINING: The optimum parameters of SVC are kernel=rbf, gamma=auto, C=10, degree =2 with the accuracy score of 0.7014258999532492
+INFO 06/19/2022 11:03:50 PM TRAINING: Best SVC trained
+INFO 06/19/2022 11:03:50 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 11:03:50 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 11:03:50 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 11:16:51 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=entropy, min_samples_split=2, max_features =sqrt, ccp_alpha=0.005 with the accuracy of 0.7382889200561009
+INFO 06/19/2022 11:16:52 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 11:16:52 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 11:16:52 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 11:16:52 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/19/2022 11:28:59 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=10, colsample_bytree=0.6, n_estimators =300 with the accuracy score of 0.7294296400187004
+INFO 06/19/2022 11:29:01 PM TRAINING: Best xgb classifier trained
+INFO 06/19/2022 11:29:01 PM TRAINING: Search for best xgb classifier model ended
+INFO 06/19/2022 11:29:01 PM TRAINING: The best model is random forest classifier with accuracy of 0.7987012987012987for 154 instances
+INFO 06/19/2022 11:29:01 PM TRAINING: Search for best model started
+INFO 06/19/2022 11:29:01 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 11:29:01 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 11:29:14 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.7754285714285715
+INFO 06/19/2022 11:29:14 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 11:29:14 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 11:29:14 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 11:29:14 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 11:29:16 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =3 with the accuracy score of 0.7952653061224491
+INFO 06/19/2022 11:29:16 PM TRAINING: Best SVC trained
+INFO 06/19/2022 11:29:16 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 11:29:16 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 11:29:16 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 11:34:11 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=gini, min_samples_split=2, max_features =sqrt, ccp_alpha=0.003 with the accuracy of 0.7909387755102041
+INFO 06/19/2022 11:34:11 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 11:34:11 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 11:34:11 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 11:34:11 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/19/2022 11:43:32 PM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=15, colsample_bytree=0.4, n_estimators =3000 with the accuracy score of 0.7671836734693878
+INFO 06/19/2022 11:43:38 PM TRAINING: Best xgb classifier trained
+INFO 06/19/2022 11:43:38 PM TRAINING: Search for best xgb classifier model ended
+INFO 06/19/2022 11:43:38 PM TRAINING: The best model is svc with accuracy of 0.7349397590361446for 83 instances
+INFO 06/19/2022 11:43:38 PM TRAINING: Search for best model started
+INFO 06/19/2022 11:43:38 PM TRAINING: Search for best logistic regressor model started
+INFO 06/19/2022 11:43:38 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/19/2022 11:44:01 PM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6247759522031366
+INFO 06/19/2022 11:44:01 PM TRAINING: Best Logistic  Regressor trained
+INFO 06/19/2022 11:44:01 PM TRAINING: Search for best logistic regressor model ended
+INFO 06/19/2022 11:44:01 PM TRAINING: Search for best svc model started
+INFO 06/19/2022 11:44:01 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/19/2022 11:44:05 PM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.6751120238984317
+INFO 06/19/2022 11:44:05 PM TRAINING: Best SVC trained
+INFO 06/19/2022 11:44:05 PM TRAINING: Search for best svc model ended
+INFO 06/19/2022 11:44:05 PM TRAINING: Search for best random forest classifier model started
+INFO 06/19/2022 11:44:05 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/19/2022 11:50:35 PM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=entropy, min_samples_split=4, max_features =auto, ccp_alpha=0.006 with the accuracy of 0.6846713965646004
+INFO 06/19/2022 11:50:35 PM TRAINING: Best random forest classifier trained
+INFO 06/19/2022 11:50:35 PM TRAINING: Search for best random forest classifier model ended
+INFO 06/19/2022 11:50:35 PM TRAINING: Search for best xgb classifier model started
+INFO 06/19/2022 11:50:35 PM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/20/2022 12:04:56 AM TRAINING: The optimum parameters of xgb-classifier are learning_rate=1, max_depth=10, colsample_bytree=0.6, n_estimators =300 with the accuracy score of 0.6846713965646005
+INFO 06/20/2022 12:04:56 AM TRAINING: Best xgb classifier trained
+INFO 06/20/2022 12:04:56 AM TRAINING: Search for best xgb classifier model ended
+INFO 06/20/2022 12:04:56 AM TRAINING: The best model is random forest classifier with accuracy of 0.7398843930635838for 173 instances
+INFO 06/20/2022 12:04:57 AM TRAINING: Search for best model started
+INFO 06/20/2022 12:04:57 AM TRAINING: Search for best logistic regressor model started
+INFO 06/20/2022 12:04:57 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/20/2022 12:05:12 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6708196721311477
+INFO 06/20/2022 12:05:12 AM TRAINING: Best Logistic  Regressor trained
+INFO 06/20/2022 12:05:12 AM TRAINING: Search for best logistic regressor model ended
+INFO 06/20/2022 12:05:12 AM TRAINING: Search for best svc model started
+INFO 06/20/2022 12:05:12 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/20/2022 12:05:14 AM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.7302185792349727
+INFO 06/20/2022 12:05:14 AM TRAINING: Best SVC trained
+INFO 06/20/2022 12:05:14 AM TRAINING: Search for best svc model ended
+INFO 06/20/2022 12:05:14 AM TRAINING: Search for best random forest classifier model started
+INFO 06/20/2022 12:05:14 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/20/2022 12:10:21 AM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=4, max_features =sqrt, ccp_alpha=0.005 with the accuracy of 0.7566120218579234
+INFO 06/20/2022 12:10:22 AM TRAINING: Best random forest classifier trained
+INFO 06/20/2022 12:10:22 AM TRAINING: Search for best random forest classifier model ended
+INFO 06/20/2022 12:10:22 AM TRAINING: Search for best xgb classifier model started
+INFO 06/20/2022 12:10:22 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/20/2022 12:20:32 AM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=15, colsample_bytree=0.7, n_estimators =300 with the accuracy score of 0.730327868852459
+INFO 06/20/2022 12:20:33 AM TRAINING: Best xgb classifier trained
+INFO 06/20/2022 12:20:33 AM TRAINING: Search for best xgb classifier model ended
+INFO 06/20/2022 12:20:33 AM TRAINING: The best model is svc with accuracy of 0.696078431372549for 102 instances
+INFO 06/20/2022 12:20:33 AM TRAINING: Search for best model started
+INFO 06/20/2022 12:20:33 AM TRAINING: Search for best logistic regressor model started
+INFO 06/20/2022 12:20:33 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/20/2022 12:21:20 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6729842619527112
+INFO 06/20/2022 12:21:21 AM TRAINING: Best Logistic  Regressor trained
+INFO 06/20/2022 12:21:21 AM TRAINING: Search for best logistic regressor model ended
+INFO 06/20/2022 12:21:21 AM TRAINING: Search for best svc model started
+INFO 06/20/2022 12:21:21 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/20/2022 12:21:45 AM TRAINING: The optimum parameters of SVC are kernel=rbf, gamma=scale, C=10, degree =2 with the accuracy score of 0.7334843738345641
+INFO 06/20/2022 12:21:45 AM TRAINING: Best SVC trained
+INFO 06/20/2022 12:21:45 AM TRAINING: Search for best svc model ended
+INFO 06/20/2022 12:21:45 AM TRAINING: Search for best random forest classifier model started
+INFO 06/20/2022 12:21:45 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/20/2022 12:35:54 AM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=3, max_features =log2, ccp_alpha=0.001 with the accuracy of 0.7964757216379503
+INFO 06/20/2022 12:35:55 AM TRAINING: Best random forest classifier trained
+INFO 06/20/2022 12:35:55 AM TRAINING: Search for best random forest classifier model ended
+INFO 06/20/2022 12:35:55 AM TRAINING: Search for best xgb classifier model started
+INFO 06/20/2022 12:35:55 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/20/2022 01:15:51 AM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.01, max_depth=15, colsample_bytree=0.5, n_estimators =3000 with the accuracy score of 0.795821212799284
+INFO 06/20/2022 01:16:23 AM TRAINING: Best xgb classifier trained
+INFO 06/20/2022 01:16:24 AM TRAINING: Search for best xgb classifier model ended
+INFO 06/20/2022 01:16:24 AM TRAINING: The best model is xgb classifier with accuracy of 0.8095238095238095for 546 instances
+INFO 06/20/2022 01:16:24 AM TRAINING: Search for best model started
+INFO 06/20/2022 01:16:24 AM TRAINING: Search for best logistic regressor model started
+INFO 06/20/2022 01:16:24 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/20/2022 01:16:33 AM TRAINING: The optimum parameters of Logistic Regressor are C=1, penalty=l2,solver=newton-cg  with the accuracy score of 0.8538461538461538
+INFO 06/20/2022 01:16:33 AM TRAINING: Best Logistic  Regressor trained
+INFO 06/20/2022 01:16:33 AM TRAINING: Search for best logistic regressor model ended
+INFO 06/20/2022 01:16:33 AM TRAINING: Search for best svc model started
+INFO 06/20/2022 01:16:33 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/20/2022 01:16:35 AM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=0.3, degree =5 with the accuracy score of 0.8589743589743589
+INFO 06/20/2022 01:16:35 AM TRAINING: Best SVC trained
+INFO 06/20/2022 01:16:35 AM TRAINING: Search for best svc model ended
+INFO 06/20/2022 01:16:35 AM TRAINING: Search for best random forest classifier model started
+INFO 06/20/2022 01:16:35 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/20/2022 01:21:29 AM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=entropy, min_samples_split=2, max_features =sqrt, ccp_alpha=0.002 with the accuracy of 0.8743589743589745
+INFO 06/20/2022 01:21:30 AM TRAINING: Best random forest classifier trained
+INFO 06/20/2022 01:21:30 AM TRAINING: Search for best random forest classifier model ended
+INFO 06/20/2022 01:21:30 AM TRAINING: Search for best xgb classifier model started
+INFO 06/20/2022 01:21:30 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/20/2022 01:32:03 AM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=10, colsample_bytree=0.2, n_estimators =300 with the accuracy score of 0.8717948717948717
+INFO 06/20/2022 01:32:04 AM TRAINING: Best xgb classifier trained
+INFO 06/20/2022 01:32:04 AM TRAINING: Search for best xgb classifier model ended
+INFO 06/20/2022 01:32:04 AM TRAINING: The best model is svc with accuracy of 0.8615384615384616for 130 instances
+INFO 06/20/2022 01:32:04 AM TRAINING: Search for best model started
+INFO 06/20/2022 01:32:04 AM TRAINING: Search for best logistic regressor model started
+INFO 06/20/2022 01:32:04 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/20/2022 01:33:01 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l1,solver=saga  with the accuracy score of 0.6972502391690583
+INFO 06/20/2022 01:33:01 AM TRAINING: Best Logistic  Regressor trained
+INFO 06/20/2022 01:33:01 AM TRAINING: Search for best logistic regressor model ended
+INFO 06/20/2022 01:33:01 AM TRAINING: Search for best svc model started
+INFO 06/20/2022 01:33:01 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/20/2022 01:33:17 AM TRAINING: The optimum parameters of SVC are kernel=rbf, gamma=auto, C=10, degree =2 with the accuracy score of 0.7742462757960913
+INFO 06/20/2022 01:33:17 AM TRAINING: Best SVC trained
+INFO 06/20/2022 01:33:17 AM TRAINING: Search for best svc model ended
+INFO 06/20/2022 01:33:17 AM TRAINING: Search for best random forest classifier model started
+INFO 06/20/2022 01:33:17 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/20/2022 01:45:15 AM TRAINING: The optimum parameters of random forrest classifier are n_estimators=130, criterion=entropy, min_samples_split=2, max_features =log2, ccp_alpha=0.001 with the accuracy of 0.8371627716277162
+INFO 06/20/2022 01:45:16 AM TRAINING: Best random forest classifier trained
+INFO 06/20/2022 01:45:16 AM TRAINING: Search for best random forest classifier model ended
+INFO 06/20/2022 01:45:16 AM TRAINING: Search for best xgb classifier model started
+INFO 06/20/2022 01:45:16 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/20/2022 02:18:16 AM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=20, colsample_bytree=0.7, n_estimators =1000 with the accuracy score of 0.8201202678693453
+INFO 06/20/2022 02:18:27 AM TRAINING: Best xgb classifier trained
+INFO 06/20/2022 02:18:27 AM TRAINING: Search for best xgb classifier model ended
+INFO 06/20/2022 02:18:27 AM TRAINING: The best model is random forest classifier with accuracy of 0.8669623059866962for 451 instances
+INFO 06/20/2022 02:18:27 AM TRAINING: Search for best model started
+INFO 06/20/2022 02:18:27 AM TRAINING: Search for best logistic regressor model started
+INFO 06/20/2022 02:18:27 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/20/2022 02:18:38 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l2,solver=newton-cg  with the accuracy score of 0.8065727699530516
+INFO 06/20/2022 02:18:38 AM TRAINING: Best Logistic  Regressor trained
+INFO 06/20/2022 02:18:38 AM TRAINING: Search for best logistic regressor model ended
+INFO 06/20/2022 02:18:38 AM TRAINING: Search for best svc model started
+INFO 06/20/2022 02:18:38 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/20/2022 02:18:40 AM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.8429968701095463
+INFO 06/20/2022 02:18:40 AM TRAINING: Best SVC trained
+INFO 06/20/2022 02:18:40 AM TRAINING: Search for best svc model ended
+INFO 06/20/2022 02:18:40 AM TRAINING: Search for best random forest classifier model started
+INFO 06/20/2022 02:18:40 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/20/2022 02:23:45 AM TRAINING: The optimum parameters of random forrest classifier are n_estimators=300, criterion=gini, min_samples_split=3, max_features =log2, ccp_alpha=0.001 with the accuracy of 0.8430751173708921
+INFO 06/20/2022 02:23:46 AM TRAINING: Best random forest classifier trained
+INFO 06/20/2022 02:23:46 AM TRAINING: Search for best random forest classifier model ended
+INFO 06/20/2022 02:23:46 AM TRAINING: Search for best xgb classifier model started
+INFO 06/20/2022 02:23:46 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/20/2022 02:33:45 AM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.3, max_depth=10, colsample_bytree=0.3, n_estimators =3000 with the accuracy score of 0.84037558685446
+INFO 06/20/2022 02:33:52 AM TRAINING: Best xgb classifier trained
+INFO 06/20/2022 02:33:52 AM TRAINING: Search for best xgb classifier model ended
+INFO 06/20/2022 02:33:52 AM TRAINING: The best model is svc with accuracy of 0.9159663865546218for 119 instances
+INFO 06/20/2022 02:33:52 AM TRAINING: Search for best model started
+INFO 06/20/2022 02:33:52 AM TRAINING: Search for best logistic regressor model started
+INFO 06/20/2022 02:33:52 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/20/2022 02:34:10 AM TRAINING: The optimum parameters of Logistic Regressor are C=3, penalty=l1,solver=saga  with the accuracy score of 0.9107262302914478
+INFO 06/20/2022 02:34:10 AM TRAINING: Best Logistic  Regressor trained
+INFO 06/20/2022 02:34:10 AM TRAINING: Search for best logistic regressor model ended
+INFO 06/20/2022 02:34:10 AM TRAINING: Search for best svc model started
+INFO 06/20/2022 02:34:10 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/20/2022 02:34:13 AM TRAINING: The optimum parameters of SVC are kernel=linear, gamma=scale, C=3, degree =2 with the accuracy score of 0.9019827998088867
+INFO 06/20/2022 02:34:13 AM TRAINING: Best SVC trained
+INFO 06/20/2022 02:34:13 AM TRAINING: Search for best svc model ended
+INFO 06/20/2022 02:34:13 AM TRAINING: Search for best random forest classifier model started
+INFO 06/20/2022 02:34:13 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/20/2022 02:39:47 AM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=entropy, min_samples_split=3, max_features =sqrt, ccp_alpha=0.004 with the accuracy of 0.8846392737697085
+INFO 06/20/2022 02:39:47 AM TRAINING: Best random forest classifier trained
+INFO 06/20/2022 02:39:47 AM TRAINING: Search for best random forest classifier model ended
+INFO 06/20/2022 02:39:48 AM TRAINING: Search for best xgb classifier model started
+INFO 06/20/2022 02:39:48 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/20/2022 02:51:13 AM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.1, max_depth=20, colsample_bytree=0.7, n_estimators =300 with the accuracy score of 0.895484949832776
+INFO 06/20/2022 02:51:15 AM TRAINING: Best xgb classifier trained
+INFO 06/20/2022 02:51:15 AM TRAINING: Search for best xgb classifier model ended
+INFO 06/20/2022 02:51:15 AM TRAINING: The best model is logistic regressor with accuracy of 0.9215686274509803for 153 instances
+INFO 06/20/2022 02:51:15 AM TRAINING: Search for best model started
+INFO 06/20/2022 02:51:15 AM TRAINING: Search for best logistic regressor model started
+INFO 06/20/2022 02:51:15 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/20/2022 02:51:41 AM TRAINING: The optimum parameters of Logistic Regressor are C=10, penalty=l2,solver=sag  with the accuracy score of 0.904367816091954
+INFO 06/20/2022 02:51:41 AM TRAINING: Best Logistic  Regressor trained
+INFO 06/20/2022 02:51:41 AM TRAINING: Search for best logistic regressor model ended
+INFO 06/20/2022 02:51:41 AM TRAINING: Search for best svc model started
+INFO 06/20/2022 02:51:41 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/20/2022 02:51:49 AM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=scale, C=10, degree =4 with the accuracy score of 0.9098946360153256
+INFO 06/20/2022 02:51:49 AM TRAINING: Best SVC trained
+INFO 06/20/2022 02:51:49 AM TRAINING: Search for best svc model ended
+INFO 06/20/2022 02:51:49 AM TRAINING: Search for best random forest classifier model started
+INFO 06/20/2022 02:51:49 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/20/2022 02:58:26 AM TRAINING: The optimum parameters of random forrest classifier are n_estimators=100, criterion=entropy, min_samples_split=4, max_features =sqrt, ccp_alpha=0.004 with the accuracy of 0.9390229885057471
+INFO 06/20/2022 02:58:26 AM TRAINING: Best random forest classifier trained
+INFO 06/20/2022 02:58:26 AM TRAINING: Search for best random forest classifier model ended
+INFO 06/20/2022 02:58:26 AM TRAINING: Search for best xgb classifier model started
+INFO 06/20/2022 02:58:26 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/20/2022 03:10:46 AM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.03, max_depth=10, colsample_bytree=0.4, n_estimators =1000 with the accuracy score of 0.9459291187739464
+INFO 06/20/2022 03:10:50 AM TRAINING: Best xgb classifier trained
+INFO 06/20/2022 03:10:50 AM TRAINING: Search for best xgb classifier model ended
+INFO 06/20/2022 03:10:50 AM TRAINING: The best model is xgb classifier with accuracy of 0.950207468879668for 241 instances
+INFO 06/20/2022 03:10:50 AM TRAINING: Search for best model started
+INFO 06/20/2022 03:10:50 AM TRAINING: Search for best logistic regressor model started
+INFO 06/20/2022 03:10:50 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+INFO 06/20/2022 03:11:07 AM TRAINING: The optimum parameters of Logistic Regressor are C=1, penalty=l1,solver=saga  with the accuracy score of 0.5646749421418051
+INFO 06/20/2022 03:11:07 AM TRAINING: Best Logistic  Regressor trained
+INFO 06/20/2022 03:11:07 AM TRAINING: Search for best logistic regressor model ended
+INFO 06/20/2022 03:11:07 AM TRAINING: Search for best svc model started
+INFO 06/20/2022 03:11:07 AM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'kernel', 'degree', 'gamma'])) of SVC
+INFO 06/20/2022 03:11:11 AM TRAINING: The optimum parameters of SVC are kernel=poly, gamma=auto, C=10, degree =5 with the accuracy score of 0.7103934357248054
+INFO 06/20/2022 03:11:11 AM TRAINING: Best SVC trained
+INFO 06/20/2022 03:11:11 AM TRAINING: Search for best svc model ended
+INFO 06/20/2022 03:11:11 AM TRAINING: Search for best random forest classifier model started
+INFO 06/20/2022 03:11:11 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['n_estimators', 'criterion', 'min_samples_split', 'max_features', 'ccp_alpha'])) of random forest classifier 
+INFO 06/20/2022 03:17:02 AM TRAINING: The optimum parameters of random forrest classifier are n_estimators=150, criterion=entropy, min_samples_split=4, max_features =sqrt, ccp_alpha=0.002 with the accuracy of 0.7699137386913529
+INFO 06/20/2022 03:17:02 AM TRAINING: Best random forest classifier trained
+INFO 06/20/2022 03:17:02 AM TRAINING: Search for best random forest classifier model ended
+INFO 06/20/2022 03:17:02 AM TRAINING: Search for best xgb classifier model started
+INFO 06/20/2022 03:17:02 AM TRAINING: Using RandomSearchCV to obtain the optimum parameters(dict_keys(['learning_rate', 'colsample_bytree', 'max_depth', 'n_estimators', 'verbosity'])) of xgb classifier
+INFO 06/20/2022 03:28:18 AM TRAINING: The optimum parameters of xgb-classifier are learning_rate=0.1, max_depth=20, colsample_bytree=0.5, n_estimators =300 with the accuracy score of 0.7555228276877761
+INFO 06/20/2022 03:28:19 AM TRAINING: Best xgb classifier trained
+INFO 06/20/2022 03:28:19 AM TRAINING: Search for best xgb classifier model ended
+INFO 06/20/2022 03:28:19 AM TRAINING: The best model is random forest classifier with accuracy of 0.803680981595092for 163 instances

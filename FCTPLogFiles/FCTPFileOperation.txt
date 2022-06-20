@@ -520,3 +520,220 @@ INFO 06/19/2022 07:57:46 PM svc_cluster_7.pickle has been save in FCTPModels/FCT
 INFO 06/19/2022 07:57:46 PM svc_cluster_7.pickle has been save in FCTPModels/FCTPMLModels/
 INFO 06/19/2022 07:57:46 PM svc_cluster_7.pickle has been save in FCTPModels/FCTPMLModels/
 INFO 06/19/2022 07:57:46 PM svc_cluster_7.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/power_transformer.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/power_transformer.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/power_transformer.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/scaler.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/scaler.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/scaler.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/pca.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/pca.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/pca.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/cluster.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/cluster.pickle loaded successfully
+INFO 06/19/2022 08:15:35 PM model at FCTPModels/cluster.pickle loaded successfully
+INFO 06/19/2022 08:36:41 PM power_transformer.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:41 PM power_transformer.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:41 PM power_transformer.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:41 PM scaler.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:41 PM scaler.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:41 PM scaler.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:41 PM pca.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:41 PM pca.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:41 PM pca.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:58 PM cluster.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:58 PM cluster.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:58 PM cluster.pickle has been save in FCTPModels/
+INFO 06/19/2022 08:36:58 PM cluster.pickle has been save in FCTPModels/
+INFO 06/19/2022 09:24:34 PM xgb_cluster_8.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:24:34 PM xgb_cluster_8.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:24:34 PM xgb_cluster_8.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:24:34 PM xgb_cluster_8.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:42:23 PM svc_cluster_16.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:42:23 PM svc_cluster_16.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:42:23 PM svc_cluster_16.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:42:23 PM svc_cluster_16.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:56:59 PM xgb_cluster_11.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:56:59 PM xgb_cluster_11.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:56:59 PM xgb_cluster_11.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 09:56:59 PM xgb_cluster_11.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:17:03 PM svc_cluster_4.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:17:03 PM svc_cluster_4.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:17:03 PM svc_cluster_4.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:17:03 PM svc_cluster_4.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:31:05 PM svc_cluster_5.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:31:05 PM svc_cluster_5.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:31:05 PM svc_cluster_5.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:31:05 PM svc_cluster_5.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:47:03 PM xgb_cluster_12.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:47:03 PM xgb_cluster_12.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:47:03 PM xgb_cluster_12.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 10:47:03 PM xgb_cluster_12.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:03:30 PM svc_cluster_3.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:03:30 PM svc_cluster_3.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:03:30 PM svc_cluster_3.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:03:30 PM svc_cluster_3.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:29:01 PM rfc_cluster_1.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:29:01 PM rfc_cluster_1.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:29:01 PM rfc_cluster_1.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:29:01 PM rfc_cluster_1.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:43:38 PM svc_cluster_15.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:43:38 PM svc_cluster_15.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:43:38 PM svc_cluster_15.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/19/2022 11:43:38 PM svc_cluster_15.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 12:04:57 AM rfc_cluster_6.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 12:04:57 AM rfc_cluster_6.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 12:04:57 AM rfc_cluster_6.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 12:04:57 AM rfc_cluster_6.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 12:20:33 AM svc_cluster_10.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 12:20:33 AM svc_cluster_10.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 12:20:33 AM svc_cluster_10.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 12:20:33 AM svc_cluster_10.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 01:16:24 AM xgb_cluster_2.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 01:16:24 AM xgb_cluster_2.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 01:16:24 AM xgb_cluster_2.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 01:16:24 AM xgb_cluster_2.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 01:32:04 AM svc_cluster_0.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 01:32:04 AM svc_cluster_0.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 01:32:04 AM svc_cluster_0.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 01:32:04 AM svc_cluster_0.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:18:27 AM rfc_cluster_14.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:18:27 AM rfc_cluster_14.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:18:27 AM rfc_cluster_14.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:18:27 AM rfc_cluster_14.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:33:52 AM svc_cluster_17.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:33:52 AM svc_cluster_17.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:33:52 AM svc_cluster_17.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:33:52 AM svc_cluster_17.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:51:15 AM logistic_cluster_9.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:51:15 AM logistic_cluster_9.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:51:15 AM logistic_cluster_9.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 02:51:15 AM logistic_cluster_9.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 03:10:50 AM xgb_cluster_7.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 03:10:50 AM xgb_cluster_7.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 03:10:50 AM xgb_cluster_7.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 03:10:50 AM xgb_cluster_7.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 03:28:19 AM rfc_cluster_13.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 03:28:19 AM rfc_cluster_13.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 03:28:19 AM rfc_cluster_13.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 03:28:19 AM rfc_cluster_13.pickle has been save in FCTPModels/FCTPMLModels/
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/power_transformer.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/power_transformer.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/power_transformer.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/scaler.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/scaler.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/scaler.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/pca.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/pca.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/pca.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/cluster.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/cluster.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/cluster.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM file: rfc_cluster_14.pickle selected for prediction
+INFO 06/20/2022 05:13:02 AM file: rfc_cluster_14.pickle selected for prediction
+INFO 06/20/2022 05:13:02 AM file: rfc_cluster_14.pickle selected for prediction
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/FCTPMLModels/rfc_cluster_14.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/FCTPMLModels/rfc_cluster_14.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM model at FCTPModels/FCTPMLModels/rfc_cluster_14.pickle loaded successfully
+INFO 06/20/2022 05:13:02 AM file: xgb_cluster_8.pickle selected for prediction
+INFO 06/20/2022 05:13:02 AM file: xgb_cluster_8.pickle selected for prediction
+INFO 06/20/2022 05:13:02 AM file: xgb_cluster_8.pickle selected for prediction
+INFO 06/20/2022 05:13:04 AM model at FCTPModels/FCTPMLModels/xgb_cluster_8.pickle loaded successfully
+INFO 06/20/2022 05:13:04 AM model at FCTPModels/FCTPMLModels/xgb_cluster_8.pickle loaded successfully
+INFO 06/20/2022 05:13:04 AM model at FCTPModels/FCTPMLModels/xgb_cluster_8.pickle loaded successfully
+INFO 06/20/2022 05:13:05 AM file: svc_cluster_4.pickle selected for prediction
+INFO 06/20/2022 05:13:05 AM file: svc_cluster_4.pickle selected for prediction
+INFO 06/20/2022 05:13:05 AM file: svc_cluster_4.pickle selected for prediction
+INFO 06/20/2022 05:13:05 AM model at FCTPModels/FCTPMLModels/svc_cluster_4.pickle loaded successfully
+INFO 06/20/2022 05:13:05 AM model at FCTPModels/FCTPMLModels/svc_cluster_4.pickle loaded successfully
+INFO 06/20/2022 05:13:05 AM model at FCTPModels/FCTPMLModels/svc_cluster_4.pickle loaded successfully
+INFO 06/20/2022 05:13:05 AM file: rfc_cluster_6.pickle selected for prediction
+INFO 06/20/2022 05:13:05 AM file: rfc_cluster_6.pickle selected for prediction
+INFO 06/20/2022 05:13:05 AM file: rfc_cluster_6.pickle selected for prediction
+INFO 06/20/2022 05:13:05 AM model at FCTPModels/FCTPMLModels/rfc_cluster_6.pickle loaded successfully
+INFO 06/20/2022 05:13:05 AM model at FCTPModels/FCTPMLModels/rfc_cluster_6.pickle loaded successfully
+INFO 06/20/2022 05:13:05 AM model at FCTPModels/FCTPMLModels/rfc_cluster_6.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM file: rfc_cluster_1.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM file: rfc_cluster_1.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM file: rfc_cluster_1.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM model at FCTPModels/FCTPMLModels/rfc_cluster_1.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM model at FCTPModels/FCTPMLModels/rfc_cluster_1.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM model at FCTPModels/FCTPMLModels/rfc_cluster_1.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM file: xgb_cluster_2.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM file: xgb_cluster_2.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM file: xgb_cluster_2.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM model at FCTPModels/FCTPMLModels/xgb_cluster_2.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM model at FCTPModels/FCTPMLModels/xgb_cluster_2.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM model at FCTPModels/FCTPMLModels/xgb_cluster_2.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM file: rfc_cluster_13.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM file: rfc_cluster_13.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM file: rfc_cluster_13.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM model at FCTPModels/FCTPMLModels/rfc_cluster_13.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM model at FCTPModels/FCTPMLModels/rfc_cluster_13.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM model at FCTPModels/FCTPMLModels/rfc_cluster_13.pickle loaded successfully
+INFO 06/20/2022 05:13:06 AM file: xgb_cluster_11.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM file: xgb_cluster_11.pickle selected for prediction
+INFO 06/20/2022 05:13:06 AM file: xgb_cluster_11.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/xgb_cluster_11.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/xgb_cluster_11.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/xgb_cluster_11.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_15.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_15.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_15.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_15.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_15.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_15.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_16.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_16.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_16.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_16.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_16.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_16.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_17.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_17.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_17.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_17.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_17.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_17.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_3.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_3.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_3.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_3.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_3.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_3.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: xgb_cluster_12.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: xgb_cluster_12.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: xgb_cluster_12.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/xgb_cluster_12.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/xgb_cluster_12.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/xgb_cluster_12.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_10.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_10.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_10.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_10.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_10.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_10.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_5.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_5.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_5.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_5.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_5.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_5.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_0.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_0.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: svc_cluster_0.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_0.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_0.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/svc_cluster_0.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: logistic_cluster_9.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: logistic_cluster_9.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: logistic_cluster_9.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/logistic_cluster_9.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/logistic_cluster_9.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/logistic_cluster_9.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM file: xgb_cluster_7.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: xgb_cluster_7.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM file: xgb_cluster_7.pickle selected for prediction
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/xgb_cluster_7.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/xgb_cluster_7.pickle loaded successfully
+INFO 06/20/2022 05:13:07 AM model at FCTPModels/FCTPMLModels/xgb_cluster_7.pickle loaded successfully

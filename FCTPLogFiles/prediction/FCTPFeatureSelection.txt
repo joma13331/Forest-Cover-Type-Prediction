@@ -1,0 +1,2 @@
+INFO 06/20/2022 05:13:02 AM PREDICTION: The following columns were dropped: ['id', 'Id']
+INFO 06/20/2022 05:13:02 AM PREDICTION: The following columns were dropped: ['Soil_Type36', 'Soil_Type28', 'Soil_Type15', 'Soil_Type8', 'Soil_Type9', 'Soil_Type16', 'Soil_Type34', 'Soil_Type26', 'Soil_Type27', 'Soil_Type37', 'Soil_Type7', 'Soil_Type21', 'Soil_Type25', 'Soil_Type19']

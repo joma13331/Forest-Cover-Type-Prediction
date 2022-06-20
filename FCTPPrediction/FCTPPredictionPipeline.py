@@ -128,8 +128,8 @@ class FCTPPredictionPipeline:
             # DATA PRE-PROCESSING
 
             # Removing The 'id' column
-            features = feature_selector.fctp_remove_columns(prediction_data, ['id', 'ID'])
-            message = f"{self.operation}: Removed the 'id' and 'ID' column"
+            features = feature_selector.fctp_remove_columns(prediction_data, ['id', 'Id'])
+            message = f"{self.operation}: Removed the 'id' and 'Id' column"
             self.fctp_prediction_pipeline_logging.info(message)
 
             # Removing all columns not trained on
@@ -181,7 +181,7 @@ class FCTPPredictionPipeline:
             # Saving the cluster and the ids back to the features
             features['clusters'] = cluster.predict(features)
             features['id'] = prediction_data['id']
-            features['ID'] = prediction_data['ID']
+            features['Id'] = prediction_data['Id']
 
             result = []
 
@@ -193,7 +193,7 @@ class FCTPPredictionPipeline:
                 id1 = cluster_data['id']
                 
                 # Dropping the data not used for prediction
-                cluster_data = cluster_data.drop(columns=["clusters", 'id', 'ID'])
+                cluster_data = cluster_data.drop(columns=["clusters", 'id', 'Id'])
                 # Loading the model that will be used to predict on the ith cluster
                 model = file_operator.fctp_load_ml_model(i)
 

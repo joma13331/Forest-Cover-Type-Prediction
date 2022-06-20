@@ -1,14 +1,13 @@
-import logging
 import os
 import logging
-from sklearn.cluster import AgglomerativeClustering
-from sklearn.metrics import silhouette_score
+from kneed import KneeLocator
+from sklearn.cluster import KMeans
 from FCTPCommonTasks.FCTPFileOperations import FCTPFileOperations
 
 
 class FCTPClustering:
     """
-    :Class Name: FCTPClusteringTrain
+    :Class Name: FCTPClustering
     :Description: This class is used to cluster the data so that models will be fine
                   tuned for each cluster and higher accuracy is obtained.
 
@@ -63,31 +62,23 @@ class FCTPClustering:
         """
         try:
             
-            # A dictionary with keys as cluster numbers and silhoette score as values
-            sil_score = {}
+            # within cluster sum of squares: For evaluating the knee point so that no. of clusters can be determined
+            wcss = []
 
-            # Looping through all cluster values being checked
-            for i in range(20,30):
-                # Creating a Heirarchical Clustering object
-                agl_clustering = AgglomerativeClustering(n_clusters=i)
-                # Cluster labels for the data
-                cluster_label = agl_clustering.fit_predict(dataframe)
-                # Storing the silhoette scores into the dictionary
-                sil_score[i] = silhouette_score(dataframe, labels=cluster_label)
-            print(sil_score)
-            
-            # list of values of silhoette_scores
-            values = list(sil_score.values())
-            # list of cluster number being tested
-            keys = list(sil_score.keys())
+            for i in range(1, 30):
+                # initializer is k-means++ so that there is some minimum distance between randomly initialized centroid.
+                kmeans = KMeans(n_clusters=i, init='k-means++', random_state=42)
+                # Training the Kmeans Clustering Algorithm on the data
+                kmeans.fit(dataframe)
+                #  Appending the wcss value to the list
+                wcss.append(kmeans.inertia_)
 
-            # Index of the max Silhoette score
-            index = values.index(max(values))
-            # Optimum cluster number
-            opt_cluster_val = keys[index]  
+            # KneeLocator mathematically determines the knee point so that the task of selecting the optimum no of
+            # cluster can automated.
+            opt_cluster_val = KneeLocator(range(1, 30), wcss, curve="convex", direction='decreasing').knee
 
-            # Logging about the optimum cluster number
-            message = f"{self.operation}: The optimum cluster number is {opt_cluster_val}"
+            # Logging about the number of optimal cluster 
+            message = f"{self.operation} The optimum cluster value obtained is {opt_cluster_val} with wcss={wcss[opt_cluster_val-1]}"
             self.fctp_clustering_logging.info(message)
 
             return opt_cluster_val
@@ -95,7 +86,7 @@ class FCTPClustering:
         except Exception as e:
             message = f"{self.operation}: There was an ERROR while detecting optimum no. of cluster: {str(e)}"
             self.fctp_clustering_logging.error(message)
-            raise e\
+            raise e
     
     def fctp_create_cluster(self, dataframe, number_of_clusters):
         """
@@ -111,16 +102,15 @@ class FCTPClustering:
         """
         try:
             
-            # Creating a Heirarchical Cluster Model with optimum cluster number
-            clustering_model = AgglomerativeClustering(n_clusters=number_of_clusters)
+            # Creating a KMeans CLustering object with Optimal Cluster number
+            k_mean_model = KMeans(n_clusters=number_of_clusters, init='k-means++', random_state=42)
 
             # Adds a new column to the dataframe which identifies the cluster to which that data point belongs to.
-            dataframe['cluster'] = clustering_model.fit_predict(dataframe)
+            dataframe['cluster'] = k_mean_model.fit_predict(dataframe)
 
-            # Saving the clustering model
-            self.file_operator.fctp_save_model(clustering_model, self.cluster_model_path, "cluster.pickle")
+            # Saving the Clustering model
+            self.file_operator.fctp_save_model(k_mean_model, self.cluster_model_path, "cluster.pickle")
 
-            # Logging that the clustering has been done
             message = f"{self.operation}: Clustering has been done, with cluster column added to dataset"
             self.fctp_clustering_logging.info(message)
 

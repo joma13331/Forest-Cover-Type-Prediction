@@ -1,0 +1,3 @@
+INFO 06/20/2022 05:13:02 AM PREDICTION: The dataset has been scaled using Standard Scalar
+INFO 06/20/2022 05:13:02 AM PREDICTION: The Principal Component Analysis model is loaded from FCTPModels/
+INFO 06/20/2022 05:13:02 AM PREDICTION: Data transformed into 40 using pca model

@@ -1,144 +1,54 @@
-INFO 06/19/2022 11:16:38 AM TRAINING: Start of Training Pipeline
-INFO 06/19/2022 11:16:38 AM TRAINING: Getting Validated Data
-INFO 06/19/2022 11:16:39 AM TRAINING: Validated Data Obtained
-INFO 06/19/2022 11:16:39 AM TRAINING: Data Preprocessing started
-INFO 06/19/2022 11:16:39 AM TRAINING: Removed the 'id' and 'Id' column
-INFO 06/19/2022 11:16:39 AM TRAINING: Separated the features and labels
-INFO 06/19/2022 11:16:39 AM TRAINING: Checked for null values and if any were present imputed them
-INFO 06/19/2022 11:16:39 AM TRAINING: Obtained the Numerical and Categorical Features
-INFO 06/19/2022 11:16:39 AM TRAINING: Obtained the Continuous and Discrete Features
-INFO 06/19/2022 11:16:40 AM TRAINING: Dropped all the irrelevant columns after feature selection
-INFO 06/19/2022 11:16:40 AM TRAINING: Converted all possible continuous columns to normal
-INFO 06/19/2022 11:16:40 AM TRAINING: All the features have been scaled
-INFO 06/19/2022 11:16:40 AM TRAINING: Performed PCA and retained 99% of variance
-INFO 06/19/2022 11:16:40 AM TRAINING: Data Preprocessing completed
-INFO 06/19/2022 11:16:40 AM TRAINING: Data Clustering Started
-INFO 06/19/2022 11:19:03 AM TRAINING: Data Clustering Completed
-INFO 06/19/2022 11:19:03 AM TRAINING: Start of Training for cluster 3
-INFO 06/19/2022 11:19:20 AM TRAINING: There was an ERROR in obtaining best model: axis 1 is out of bounds for array of dimension 1
-INFO 06/19/2022 11:22:22 AM TRAINING: Start of Training Pipeline
-INFO 06/19/2022 11:22:22 AM TRAINING: Getting Validated Data
-INFO 06/19/2022 11:22:22 AM TRAINING: Validated Data Obtained
-INFO 06/19/2022 11:22:22 AM TRAINING: Data Preprocessing started
-INFO 06/19/2022 11:22:22 AM TRAINING: Removed the 'id' and 'Id' column
-INFO 06/19/2022 11:22:22 AM TRAINING: Separated the features and labels
-INFO 06/19/2022 11:22:22 AM TRAINING: Checked for null values and if any were present imputed them
-INFO 06/19/2022 11:22:22 AM TRAINING: Obtained the Numerical and Categorical Features
-INFO 06/19/2022 11:22:22 AM TRAINING: Obtained the Continuous and Discrete Features
-INFO 06/19/2022 11:22:23 AM TRAINING: Dropped all the irrelevant columns after feature selection
-INFO 06/19/2022 11:22:23 AM TRAINING: Converted all possible continuous columns to normal
-INFO 06/19/2022 11:22:23 AM TRAINING: All the features have been scaled
-INFO 06/19/2022 11:22:24 AM TRAINING: Performed PCA and retained 99% of variance
-INFO 06/19/2022 11:22:24 AM TRAINING: Data Preprocessing completed
-INFO 06/19/2022 11:22:24 AM TRAINING: Data Clustering Started
-INFO 06/19/2022 11:24:47 AM TRAINING: Data Clustering Completed
-INFO 06/19/2022 11:24:47 AM TRAINING: Start of Training for cluster 3
-INFO 06/19/2022 11:25:05 AM TRAINING: There was an ERROR in obtaining best model: axis 1 is out of bounds for array of dimension 1
-INFO 06/19/2022 11:28:49 AM TRAINING: Start of Training Pipeline
-INFO 06/19/2022 11:28:49 AM TRAINING: Getting Validated Data
-INFO 06/19/2022 11:28:49 AM TRAINING: Validated Data Obtained
-INFO 06/19/2022 11:28:49 AM TRAINING: Data Preprocessing started
-INFO 06/19/2022 11:28:49 AM TRAINING: Removed the 'id' and 'Id' column
-INFO 06/19/2022 11:28:49 AM TRAINING: Separated the features and labels
-INFO 06/19/2022 11:28:49 AM TRAINING: Checked for null values and if any were present imputed them
-INFO 06/19/2022 11:28:49 AM TRAINING: Obtained the Numerical and Categorical Features
-INFO 06/19/2022 11:28:49 AM TRAINING: Obtained the Continuous and Discrete Features
-INFO 06/19/2022 11:28:50 AM TRAINING: Dropped all the irrelevant columns after feature selection
-INFO 06/19/2022 11:28:51 AM TRAINING: Converted all possible continuous columns to normal
-INFO 06/19/2022 11:28:51 AM TRAINING: All the features have been scaled
-INFO 06/19/2022 11:28:51 AM TRAINING: Performed PCA and retained 99% of variance
-INFO 06/19/2022 11:28:51 AM TRAINING: Data Preprocessing completed
-INFO 06/19/2022 11:28:51 AM TRAINING: Data Clustering Started
-INFO 06/19/2022 11:31:13 AM TRAINING: Data Clustering Completed
-INFO 06/19/2022 11:31:13 AM TRAINING: Start of Training for cluster 3
-INFO 06/19/2022 11:31:31 AM TRAINING: There was an ERROR in obtaining best model: axis 1 is out of bounds for array of dimension 1
-INFO 06/19/2022 11:36:37 AM TRAINING: Start of Training Pipeline
-INFO 06/19/2022 11:36:37 AM TRAINING: Getting Validated Data
-INFO 06/19/2022 11:36:37 AM TRAINING: Validated Data Obtained
-INFO 06/19/2022 11:36:37 AM TRAINING: Data Preprocessing started
-INFO 06/19/2022 11:36:37 AM TRAINING: Removed the 'id' and 'Id' column
-INFO 06/19/2022 11:36:37 AM TRAINING: Separated the features and labels
-INFO 06/19/2022 11:36:37 AM TRAINING: Checked for null values and if any were present imputed them
-INFO 06/19/2022 11:36:37 AM TRAINING: Obtained the Numerical and Categorical Features
-INFO 06/19/2022 11:36:37 AM TRAINING: Obtained the Continuous and Discrete Features
-INFO 06/19/2022 11:36:38 AM TRAINING: Dropped all the irrelevant columns after feature selection
-INFO 06/19/2022 11:36:38 AM TRAINING: Converted all possible continuous columns to normal
-INFO 06/19/2022 11:36:38 AM TRAINING: All the features have been scaled
-INFO 06/19/2022 11:36:38 AM TRAINING: Performed PCA and retained 99% of variance
-INFO 06/19/2022 11:36:38 AM TRAINING: Data Preprocessing completed
-INFO 06/19/2022 11:36:38 AM TRAINING: Data Clustering Started
-INFO 06/19/2022 11:39:03 AM TRAINING: Data Clustering Completed
-INFO 06/19/2022 11:39:03 AM TRAINING: Start of Training for cluster 3
-INFO 06/19/2022 11:39:21 AM TRAINING: There was an ERROR in obtaining best model: Target scores need to be probabilities for multiclass roc_auc, i.e. they should sum up to 1.0 over classes
-INFO 06/19/2022 11:41:03 AM TRAINING: Start of Training Pipeline
-INFO 06/19/2022 11:41:03 AM TRAINING: Getting Validated Data
-INFO 06/19/2022 11:41:03 AM TRAINING: Validated Data Obtained
-INFO 06/19/2022 11:41:03 AM TRAINING: Data Preprocessing started
-INFO 06/19/2022 11:41:03 AM TRAINING: Removed the 'id' and 'Id' column
-INFO 06/19/2022 11:41:03 AM TRAINING: Separated the features and labels
-INFO 06/19/2022 11:41:03 AM TRAINING: Checked for null values and if any were present imputed them
-INFO 06/19/2022 11:41:03 AM TRAINING: Obtained the Numerical and Categorical Features
-INFO 06/19/2022 11:41:03 AM TRAINING: Obtained the Continuous and Discrete Features
-INFO 06/19/2022 11:41:04 AM TRAINING: Dropped all the irrelevant columns after feature selection
-INFO 06/19/2022 11:41:05 AM TRAINING: Converted all possible continuous columns to normal
-INFO 06/19/2022 11:41:05 AM TRAINING: All the features have been scaled
-INFO 06/19/2022 11:41:05 AM TRAINING: Performed PCA and retained 99% of variance
-INFO 06/19/2022 11:41:05 AM TRAINING: Data Preprocessing completed
-INFO 06/19/2022 11:41:05 AM TRAINING: Data Clustering Started
-INFO 06/19/2022 11:43:24 AM TRAINING: Data Clustering Completed
-INFO 06/19/2022 11:43:24 AM TRAINING: Start of Training for cluster 3
-INFO 06/19/2022 12:11:38 PM TRAINING:Model for cluster 3 trained
-INFO 06/19/2022 12:11:38 PM TRAINING: Start of Training for cluster 18
-INFO 06/19/2022 12:18:58 PM TRAINING:Model for cluster 18 trained
-INFO 06/19/2022 12:18:58 PM TRAINING: Start of Training for cluster 2
-INFO 06/19/2022 12:36:42 PM TRAINING:Model for cluster 2 trained
-INFO 06/19/2022 12:36:42 PM TRAINING: Start of Training for cluster 23
-INFO 06/19/2022 12:45:17 PM TRAINING:Model for cluster 23 trained
-INFO 06/19/2022 12:45:17 PM TRAINING: Start of Training for cluster 0
-INFO 06/19/2022 01:59:04 PM TRAINING:Model for cluster 0 trained
-INFO 06/19/2022 01:59:04 PM TRAINING: Start of Training for cluster 16
-INFO 06/19/2022 02:11:31 PM TRAINING:Model for cluster 16 trained
-INFO 06/19/2022 02:11:31 PM TRAINING: Start of Training for cluster 13
-INFO 06/19/2022 02:24:58 PM TRAINING:Model for cluster 13 trained
-INFO 06/19/2022 02:24:58 PM TRAINING: Start of Training for cluster 26
-INFO 06/19/2022 02:44:44 PM TRAINING:Model for cluster 26 trained
-INFO 06/19/2022 02:44:44 PM TRAINING: Start of Training for cluster 1
-INFO 06/19/2022 02:58:32 PM TRAINING:Model for cluster 1 trained
-INFO 06/19/2022 02:58:32 PM TRAINING: Start of Training for cluster 9
-INFO 06/19/2022 03:16:16 PM TRAINING:Model for cluster 9 trained
-INFO 06/19/2022 03:16:16 PM TRAINING: Start of Training for cluster 8
-INFO 06/19/2022 03:31:18 PM TRAINING:Model for cluster 8 trained
-INFO 06/19/2022 03:31:18 PM TRAINING: Start of Training for cluster 12
-INFO 06/19/2022 03:46:46 PM TRAINING:Model for cluster 12 trained
-INFO 06/19/2022 03:46:46 PM TRAINING: Start of Training for cluster 21
-INFO 06/19/2022 04:04:51 PM TRAINING:Model for cluster 21 trained
-INFO 06/19/2022 04:04:51 PM TRAINING: Start of Training for cluster 22
-INFO 06/19/2022 04:19:41 PM TRAINING:Model for cluster 22 trained
-INFO 06/19/2022 04:19:41 PM TRAINING: Start of Training for cluster 15
-INFO 06/19/2022 04:39:56 PM TRAINING:Model for cluster 15 trained
-INFO 06/19/2022 04:39:56 PM TRAINING: Start of Training for cluster 14
-INFO 06/19/2022 04:57:18 PM TRAINING:Model for cluster 14 trained
-INFO 06/19/2022 04:57:18 PM TRAINING: Start of Training for cluster 20
-INFO 06/19/2022 05:10:22 PM TRAINING:Model for cluster 20 trained
-INFO 06/19/2022 05:10:22 PM TRAINING: Start of Training for cluster 10
-INFO 06/19/2022 05:32:48 PM TRAINING:Model for cluster 10 trained
-INFO 06/19/2022 05:32:48 PM TRAINING: Start of Training for cluster 11
-INFO 06/19/2022 05:47:12 PM TRAINING:Model for cluster 11 trained
-INFO 06/19/2022 05:47:12 PM TRAINING: Start of Training for cluster 6
-INFO 06/19/2022 06:02:50 PM TRAINING:Model for cluster 6 trained
-INFO 06/19/2022 06:02:50 PM TRAINING: Start of Training for cluster 19
-INFO 06/19/2022 06:20:55 PM TRAINING:Model for cluster 19 trained
-INFO 06/19/2022 06:20:55 PM TRAINING: Start of Training for cluster 5
-INFO 06/19/2022 06:40:08 PM TRAINING:Model for cluster 5 trained
-INFO 06/19/2022 06:40:08 PM TRAINING: Start of Training for cluster 4
-INFO 06/19/2022 07:04:32 PM TRAINING:Model for cluster 4 trained
-INFO 06/19/2022 07:04:32 PM TRAINING: Start of Training for cluster 25
-INFO 06/19/2022 07:23:06 PM TRAINING:Model for cluster 25 trained
-INFO 06/19/2022 07:23:06 PM TRAINING: Start of Training for cluster 17
-INFO 06/19/2022 07:36:29 PM TRAINING:Model for cluster 17 trained
-INFO 06/19/2022 07:36:29 PM TRAINING: Start of Training for cluster 24
-INFO 06/19/2022 07:44:19 PM TRAINING:Model for cluster 24 trained
-INFO 06/19/2022 07:44:19 PM TRAINING: Start of Training for cluster 7
-INFO 06/19/2022 07:57:46 PM TRAINING:Model for cluster 7 trained
-INFO 06/19/2022 07:57:46 PM TRAINING: Successful End of Training 
-INFO 06/19/2022 07:57:46 PM TRAINING: Training Pipeline Successfully Completed
+INFO 06/19/2022 08:36:39 PM TRAINING: Start of Training Pipeline
+INFO 06/19/2022 08:36:39 PM TRAINING: Getting Validated Data
+INFO 06/19/2022 08:36:39 PM TRAINING: Validated Data Obtained
+INFO 06/19/2022 08:36:39 PM TRAINING: Data Preprocessing started
+INFO 06/19/2022 08:36:39 PM TRAINING: Removed the 'id' and 'Id' column
+INFO 06/19/2022 08:36:39 PM TRAINING: Separated the features and labels
+INFO 06/19/2022 08:36:39 PM TRAINING: Checked for null values and if any were present imputed them
+INFO 06/19/2022 08:36:39 PM TRAINING: Obtained the Numerical and Categorical Features
+INFO 06/19/2022 08:36:39 PM TRAINING: Obtained the Continuous and Discrete Features
+INFO 06/19/2022 08:36:40 PM TRAINING: Dropped all the irrelevant columns after feature selection
+INFO 06/19/2022 08:36:41 PM TRAINING: Converted all possible continuous columns to normal
+INFO 06/19/2022 08:36:41 PM TRAINING: All the features have been scaled
+INFO 06/19/2022 08:36:41 PM TRAINING: Performed PCA and retained 99% of variance
+INFO 06/19/2022 08:36:41 PM TRAINING: Data Preprocessing completed
+INFO 06/19/2022 08:36:41 PM TRAINING: Data Clustering Started
+INFO 06/19/2022 08:36:58 PM TRAINING: Data Clustering Completed
+INFO 06/19/2022 08:36:58 PM TRAINING: Start of Training for cluster 8
+INFO 06/19/2022 09:24:34 PM TRAINING:Model for cluster 8 trained
+INFO 06/19/2022 09:24:34 PM TRAINING: Start of Training for cluster 16
+INFO 06/19/2022 09:42:23 PM TRAINING:Model for cluster 16 trained
+INFO 06/19/2022 09:42:23 PM TRAINING: Start of Training for cluster 11
+INFO 06/19/2022 09:56:59 PM TRAINING:Model for cluster 11 trained
+INFO 06/19/2022 09:56:59 PM TRAINING: Start of Training for cluster 4
+INFO 06/19/2022 10:17:03 PM TRAINING:Model for cluster 4 trained
+INFO 06/19/2022 10:17:03 PM TRAINING: Start of Training for cluster 5
+INFO 06/19/2022 10:31:05 PM TRAINING:Model for cluster 5 trained
+INFO 06/19/2022 10:31:05 PM TRAINING: Start of Training for cluster 12
+INFO 06/19/2022 10:47:03 PM TRAINING:Model for cluster 12 trained
+INFO 06/19/2022 10:47:03 PM TRAINING: Start of Training for cluster 3
+INFO 06/19/2022 11:03:30 PM TRAINING:Model for cluster 3 trained
+INFO 06/19/2022 11:03:30 PM TRAINING: Start of Training for cluster 1
+INFO 06/19/2022 11:29:01 PM TRAINING:Model for cluster 1 trained
+INFO 06/19/2022 11:29:01 PM TRAINING: Start of Training for cluster 15
+INFO 06/19/2022 11:43:38 PM TRAINING:Model for cluster 15 trained
+INFO 06/19/2022 11:43:38 PM TRAINING: Start of Training for cluster 6
+INFO 06/20/2022 12:04:57 AM TRAINING:Model for cluster 6 trained
+INFO 06/20/2022 12:04:57 AM TRAINING: Start of Training for cluster 10
+INFO 06/20/2022 12:20:33 AM TRAINING:Model for cluster 10 trained
+INFO 06/20/2022 12:20:33 AM TRAINING: Start of Training for cluster 2
+INFO 06/20/2022 01:16:24 AM TRAINING:Model for cluster 2 trained
+INFO 06/20/2022 01:16:24 AM TRAINING: Start of Training for cluster 0
+INFO 06/20/2022 01:32:04 AM TRAINING:Model for cluster 0 trained
+INFO 06/20/2022 01:32:04 AM TRAINING: Start of Training for cluster 14
+INFO 06/20/2022 02:18:27 AM TRAINING:Model for cluster 14 trained
+INFO 06/20/2022 02:18:27 AM TRAINING: Start of Training for cluster 17
+INFO 06/20/2022 02:33:52 AM TRAINING:Model for cluster 17 trained
+INFO 06/20/2022 02:33:52 AM TRAINING: Start of Training for cluster 9
+INFO 06/20/2022 02:51:15 AM TRAINING:Model for cluster 9 trained
+INFO 06/20/2022 02:51:15 AM TRAINING: Start of Training for cluster 7
+INFO 06/20/2022 03:10:50 AM TRAINING:Model for cluster 7 trained
+INFO 06/20/2022 03:10:50 AM TRAINING: Start of Training for cluster 13
+INFO 06/20/2022 03:28:19 AM TRAINING:Model for cluster 13 trained
+INFO 06/20/2022 03:28:19 AM TRAINING: Successful End of Training 
+INFO 06/20/2022 03:28:19 AM TRAINING: Training Pipeline Successfully Completed
