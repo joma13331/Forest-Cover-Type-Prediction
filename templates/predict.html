@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Credit Card Default Prediction Project</title>
+        <link rel="stylesheet" href="static/css/predict.css">
+    </head>
+    <body>
+        <div id="container">
+            
+            <h1 id="project_name">
+                Credit Card Default Prediction
+            </h1>
+
+            <p id="logo"><img src={{image_url}} alt="iNeuron Logo" width=200px ></p>
+
+            <div id="pred_result">
+
+                <h2>Prediction Result</h2>
+                <h2 id="message">{{message}}</h2>
+                
+                <table id="table_result">
+                    <tr>
+                        <th>Client ID</th>
+                        <th>Default On Payment Next Month</th>
+
+                    </tr>
+                    {%for record in records%}
+                    <tr>
+                        <td>{{record['ID']}}</td>
+                        <td>{{record['default.payment.next.month']==1}}</td>
+
+                    </tr>
+                    {%endfor%}
+                </table>
+
+                <h2><a href="/">CLICK HERE TO GO BACK TO HOME PAGE</a></h2>
+                
+            </div>
+        </div>
+    </body>
+</html>

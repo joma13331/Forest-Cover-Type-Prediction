@@ -2,13 +2,251 @@
 
 <html lang="en">
     <head>
-        <meta charset="utf-8" >
-        <title>Base Project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Forest Cover Type Prediction Project</title>
+        <link rel="stylesheet" href="../static/css/main.css">
+
     </head>
 
     <body>
-        {% block body %}
-        <p>{{message}}</p>
-        {% endblock %}
+        <div id="container">
+            
+            <h1 id="project_name">
+                Forest Cover Type Prediction
+            </h1>
+
+            <p id="logo"><img src={{image_url}} alt="iNeuron Logo" width=200px></p>
+
+            <div id="description">
+                <div id="introduction">
+                    <p>
+                        This Web Application implements a Machine Learning Solution to determine the Forest Cover Type from strictly cartographic variables.
+                        The actual forest cover type for a given 30 x 30 meter cell was determined from US Forest Service (USFS) Region 2 Resource Information System data.
+                        Independent variables were then derived from data obtained from the US Geological Survey and USFS<br>
+                        It is important for various organization such as Fire Department and Forest Departments among many to know the forest cover in any region inorder to carry out operation when required.<br>
+                        The seven forest cover type that are predicted by this application are:
+                        <ol>
+                            <li>Spruce/Fir</li>
+                            <li>Lodgepole Pine</li>
+                            <li>Ponderosa Pine</li>
+                            <li>Cottonwood/Willow</li>
+                            <li>Aspen</li>
+                            <li>Douglas-fir</li>
+                            <li>Krummholz</li>
+                        </ol>
+                    </p>
+                </div>
+                
+                <div id="requirements">
+                    <p>
+                        In order to determine this the following details are required:
+
+                        <ol>
+
+                            <li>Elevation - Elevation in meters</li>
+                            <li>Aspect - Aspect in degrees azimuth</li>
+                            <li>Slope - Slope in degrees</li>
+                            <li>Horizontal_Distance_To_Hydrology - Horz Dist to nearest surface water features</li>
+                            <li>Vertical_Distance_To_Hydrology - Vert Dist to nearest surface water features</li>
+                            <li>Horizontal_Distance_To_Roadways - Horz Dist to nearest roadway</li>
+                            <li>Hillshade_9am (0 to 255 index) - Hillshade index at 9am, summer solstice</li>
+                            <li>Hillshade_Noon (0 to 255 index) - Hillshade index at noon, summer solstice</li>
+                            <li>Hillshade_3pm (0 to 255 index) - Hillshade index at 3pm, summer solstice</li>
+                            <li>Horizontal_Distance_To_Fire_Points - Horz Dist to nearest wildfire ignition points</li>
+                            <li>Wilderness_Area (4 binary columns, 0 = absence or 1 = presence) - Wilderness area designation</li>
+                            <li>Soil_Type (40 binary columns, 0 = absence or 1 = presence) - Soil Type designation</li>
+                            
+                        </ol>
+                    </p>
+                </div>
+                <div id="wilderness">
+                    <p> 
+                        The wilderness areas are:
+                        <ol>
+                            <li>Rawah Wilderness Area</li>
+                            <li>Neota Wilderness Area</li>
+                            <li>Comanche Peak Wilderness Area</li>
+                            <li>Cache la Poudre Wilderness Area</li>
+                        </ol>
+                    </p>
+                </div>
+                <div id="soil_types">
+                    <p>
+                        The soil types are:
+                        <ol>
+                            <li>Cathedral family - Rock outcrop complex, extremely stony.</li>
+                            <li>Vanet - Ratake families complex, very stony.</li>
+                            <li>Haploborolis - Rock outcrop complex, rubbly</li>
+                            <li>Ratake family - Rock outcrop complex, rubbly</li>
+                            <li>Vanet family - Rock outcrop complex complex, rubbly</li>
+                            <li>Vanet - Wetmore families - Rock outcrop complex, stony</li>
+                            <li>Gothic family</li>
+                            <li>Supervisor - Limber families complex</li>
+                            <li>Troutville family, very stony.</li>
+                            <li>Bullwark - Catamount families - Rock outcrop complex, rubbly.</li>
+                            <li>Bullwark - Catamount families - Rock land complex, rubbly.</li>
+                            <li>Legault family - Rock land complex, stony.</li>
+                            <li>Catamount family - Rock land - Bullwark family complex, rubbly.</li>
+                            <li>Pachic Argiborolis - Aquolis complex.</li>
+                            <li>unspecified in the USFS Soil and ELU Survey.</li>
+                            <li>Cryaquolis - Cryoborolis complex.</li>
+                            <li>Gateview family - Cryaquolis complex.</li>
+                            <li>Rogert family, very stony.</li>
+                            <li>Typic Cryaquolis - Borohemists complex.</li>
+                            <li>Typic Cryaquepts - Typic Cryaquolls complex.</li>
+                            <li>Typic Cryaquolls - Leighcan family, till substratum complex.</li>
+                            <li>Leighcan family, till substratum, extremely bouldery.</li>
+                            <li>Leighcan family, till substratum - Typic Cryaquolls complex.</li>
+                            <li>Leighcan family, extremely stony.</li>
+                            <li>Leighcan family, warm, extremely stony.</li>
+                            <li>Granile - Catamount families complex, very stony.</li>
+                            <li>Leighcan family, warm - Rock outcrop complex, extremely stony.</li>
+                            <li>Leighcan family - Rock outcrop complex, extremely stony.</li>
+                            <li>Como - Legault families complex, extremely stony.</li>
+                            <li>Como family - Rock land - Legault family complex, extremely stony.</li>
+                            <li>Leighcan - Catamount families complex, extremely stony.</li>
+                            <li>Catamount family - Rock outcrop - Leighcan family complex, extremely stony.</li>
+                            <li>Leighcan - Catamount families - Rock outcrop complex, extremely stony.</li>
+                            <li>Cryorthents - Rock land complex, extremely stony.</li>
+                            <li>Cryumbrepts - Rock outcrop - Cryaquepts complex.</li>
+                            <li>Bross family - Rock land - Cryumbrepts complex, extremely stony.</li>
+                            <li>Rock outcrop - Cryumbrepts - Cryorthents complex, extremely stony.</li>
+                            <li>Leighcan - Moran families - Cryaquolls complex, extremely stony.</li>
+                            <li>Moran family - Cryorthents - Leighcan family complex, extremely stony.</li>
+                            <li>Moran family - Cryorthents - Rock land complex, extremely stony.</li>
+
+                        </ol>
+                    </p>
+                </div>
+
+            </div>
+
+            <div id="predict">
+                <h2>Predict</h2>
+                <form action="/prediction" method="post" enctype="multipart/form-data">
+                    <input type="file" name="dataset" accept=".csv">
+                    <p><input type="submit" value="Predict"> <input type="reset"></p>
+                    <p>To get a prediction on Forest Cover Type upload a .csv (Comma Separated Value) file in the following format</p>
+                    <ul>
+                        <li>Filename in format "Forest_Cover_{DDMMYYYY}_{HHMMSS}data.csv"<br> Where "DDMMYYYY" represents the date and "HHMMSS" represents the time.</li>
+                        <li>Column Names in the first row in following format:</li>
+                        <li>
+                            <ol>
+                                <li>First Column Heading: "ID"</li>
+                                <li>Second Column Heading: "LIMIT_BAL"</li>
+                                <li>Third Column Heading: "SEX"</li>
+                                <li>Fourth Column Heading: "EDUCATION"</li>
+                                <li>Fifth Column Heading: "MARRIAGE"</li>
+                                <li>Sixth Column Heading: "PAY_1"</li>
+                                <li>Seventh Column Heading: "PAY_2"</li>
+                                <li>Eighth Column Heading: "PAY_3"</li>
+                                <li>Ninth Column Heading: "PAY_4"</li>
+                                <li>Tenth Column Heading: "PAY_5"</li>
+                                <li>Eleventh Column Heading: "PAY_6"</li>
+                                <li>Twelfth Column Heading: "BILL_AMT1"</li>
+                                <li>Thirteenth Column Heading: "BILL_AMT2"</li>
+                                <li>Fourteenth Column Heading: "BILL_AMT3"</li>
+                                <li>Fifteenth Column Heading: "BILL_AMT4"</li>
+                                <li>Sixteenth Column Heading: "BILL_AMT5"</li>
+                                <li>Seventeenth Column Heading: "BILL_AMT6"</li>
+                                <li>Eighteenth Column Heading: "PAY_AMT1"</li>
+                                <li>Nineteenth Column Heading: "PAY_AMT2"</li>
+                                <li>Twentieth Column Heading: "PAY_AMT3"</li>
+                                <li>Twenty First Column Heading: "PAY_AMT4"</li>
+                                <li>Twenty Second Column Heading: "PAY_AMT5"</li>
+                                <li>Twenty Third Column Heading: "PAY_AMT6"</li>
+                            </ol>
+                        </li>
+                        <li> The data to be predicted on should start from 2nd row</li>
+                    </ul>
+
+                </form>
+
+                <h2>Prediction Logs</h2>
+                <form action="/logs" method="post">
+                    <p>Select the logs you want to see.</p>
+                    <ul>
+                        <li><input type="radio" name="log_type" value="prediction/CCDBeforeUpload.txt">CCDBeforeUpload</li>
+                        <li><input type="radio" name="log_type" value="prediction/CCDDataFormatValidator.txt">CCDDataFormatValidator</li>
+                        <li><input type="radio" name="log_type" value="prediction/CCDDataInjestionComplete.txt">CCDDataInjestionComp</li>
+                        <li><input type="radio" name="log_type" value="prediction/CCDDataLoader.txt">CCDDataLoader</li>
+                        <li><input type="radio" name="log_type" value="prediction/CCDDBOperation.txt">CCDDBOperation</li>
+                        <li><input type="radio" name="log_type" value="prediction/CCDEda.txt">CCDEda</li>
+                        <li><input type="radio" name="log_type" value="prediction/CCDFeatureEngineering.txt">CCDFeatureEngineering</li>
+                        <li><input type="radio" name="log_type" value="prediction/CCDFeatureSelection.txt">CCDFeatureSelection</li>
+                        <li><input type="radio" name="log_type" value="prediction/CCDPredictionPipeline.txt">CCDPredictionPipeline</li>
+                    </ul>
+                    <p><input type="submit" value="Check Logs"></p>
+
+                </form>
+                
+            </div>
+
+            <div id="train">
+                <h2>Train</h2>
+                <form action="/train" method="post" enctype="multipart/form-data">
+                    <input type="file" name="dataset" accept=".csv">
+                    <p><input type="submit" value="Train"> <input type="reset"></p>
+                    <p>To train a model to obtain Concrete Compressive Strength upload a .csv (Comma Separated Value) file in the following format</p>
+                    <ul>
+                        <li>Filename in format "Concrete_Data_{DDMMYYYY}_{HHMMSS}data.csv"<br> Where "DDMMYYYY" represents the date and "HHMMSS" represents the time.</li>
+                        <li>Column Names in the first row in following format:</li>
+                        <li>
+                            <ol>
+                                 <li>First Column Heading: "ID"</li>
+                                <li>Second Column Heading: "LIMIT_BAL"</li>
+                                <li>Third Column Heading: "SEX"</li>
+                                <li>Fourth Column Heading: "EDUCATION"</li>
+                                <li>Fifth Column Heading: "MARRIAGE"</li>
+                                <li>Sixth Column Heading: "PAY_1"</li>
+                                <li>Seventh Column Heading: "PAY_2"</li>
+                                <li>Eighth Column Heading: "PAY_3"</li>
+                                <li>Ninth Column Heading: "PAY_4"</li>
+                                <li>Tenth Column Heading: "PAY_5"</li>
+                                <li>Eleventh Column Heading: "PAY_6"</li>
+                                <li>Twelfth Column Heading: "BILL_AMT1"</li>
+                                <li>Thirteenth Column Heading: "BILL_AMT2"</li>
+                                <li>Fourteenth Column Heading: "BILL_AMT3"</li>
+                                <li>Fifteenth Column Heading: "BILL_AMT4"</li>
+                                <li>Sixteenth Column Heading: "BILL_AMT5"</li>
+                                <li>Seventeenth Column Heading: "BILL_AMT6"</li>
+                                <li>Eighteenth Column Heading: "PAY_AMT1"</li>
+                                <li>Nineteenth Column Heading: "PAY_AMT2"</li>
+                                <li>Twentieth Column Heading: "PAY_AMT3"</li>
+                                <li>Twenty First Column Heading: "PAY_AMT4"</li>
+                                <li>Twenty Second Column Heading: "PAY_AMT5"</li>
+                                <li>Twenty Third Column Heading: "PAY_AMT6"</li>
+                                <li>Twenty Fourth Column Heading: "default.payment.next.month"</li>
+                            </ol>
+                        </li>
+                        <li> The data to be trained on should start from 2nd row</li>
+                    </ul>
+
+                </form>
+
+                <h2>Training Logs</h2>
+                <form action="/logs" method="post">
+                    <p>Select the logs you want to see.</p>
+                    <ul>
+                        <li><input type="radio" name="log_type" value="training/CCDBeforeUpload.txt">CCDBeforeUpload</li>
+                        <li><input type="radio" name="log_type" value="training/CCDClustering.txt">CCDClustering</li>
+                        <li><input type="radio" name="log_type" value="training/CCDDataFormatValidator.txt">CCDDataFormatValidator</li>
+                        <li><input type="radio" name="log_type" value="training/CCDDataInjestionComplete.txt">CCDDataInjestionComp</li>
+                        <li><input type="radio" name="log_type" value="training/CCDDataLoader.txt">CCDDataLoader</li>
+                        <li><input type="radio" name="log_type" value="training/CCDDBOperation.txt">CCDDBOperation</li>
+                        <li><input type="radio" name="log_type" value="training/CCDEda.txt">CCDEda</li>
+                        <li><input type="radio" name="log_type" value="training/CCDFeatureEngineering.txt">CCDFeatureEngineering</li>
+                        <li><input type="radio" name="log_type" value="training/CCDFeatureSelection.txt">CCDFeatureSelection</li>
+                        <li><input type="radio" name="log_type" value="training/CCDTrainingPipeline.txt">CCDTrainingPipeline</li>
+                        <li><input type="radio" name="log_type" value="training/CCDModelFinder.txt">CCDModelFinder</li>
+                    </ul>
+                    <p><input type="submit" value="Check Logs"></p>
+
+                </form>
+                <p>Warning: Training Takes a lot of time</p>
+            </div>
+        </div>
+
     </body>
 </html>
