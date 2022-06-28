@@ -22,7 +22,7 @@ body {
 
 #container{
     display: grid;
-    grid-template-rows: 0.5fr min-content 5fr;
+    grid-template-rows: min-content min-content 5fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "project_name logo"
     "description description"

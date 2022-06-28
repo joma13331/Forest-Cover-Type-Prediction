@@ -6,6 +6,7 @@
   "ColumnNames":{
     "Id": "int",
     "Elevation": "int",
+    "Aspect": "int",
     "Slope": "int",
     "Horizontal_Distance_To_Hydrology": "int",
     "Vertical_Distance_To_Hydrology": "int",
