@@ -40,12 +40,6 @@ def fctp_train_route():
             file_item = request.files["dataset"]
             # Checking to see if the file_item has file name
             if file_item.filename:
-                # creating a datetime object
-                now = datetime.now()
-                # obtaining the time in the desired form
-                dt_string = now.strftime("%d%m%Y_%H%M%S")
-                # Filename for the file that is being uploaded
-                file_name = f"Forest_Cover_{dt_string}.csv"
 
                 # Creating an empty folder to store the uploaded files
                 if os.path.isdir("FCTPUploadedFiles"):
@@ -55,7 +49,7 @@ def fctp_train_route():
                     os.mkdir("FCTPUploadedFiles")
 
                 # Saving the file
-                with open(os.path.join("FCTPUploadedFiles", file_name), 'wb') as f:
+                with open(os.path.join("FCTPUploadedFiles", file_item.filename), 'wb') as f:
                     f.write(file_item.read())
 
                 # Creating an object to perform data injestion and validation
@@ -101,7 +95,7 @@ def fctp_train_route():
 
 @app.route('/prediction', methods=["POST"])
 @cross_origin()
-def ee_prediction_route():
+def fctp_prediction_route():
     # For displaying the iNeuron Logo
     img_url = url_for('static', filename='ineuron-logo.webp')
     try:
@@ -111,13 +105,7 @@ def ee_prediction_route():
             file_item = request.files["dataset"]
             # Checking to see if the file_item has file name
             if file_item.filename:
-                # creating a datetime object
-                now = datetime.now()
-                # obtaining the time in the desired form
-                dt_string = now.strftime("%d%m%Y_%H%M%S")
-                # Filename for the file that is being uploaded
-                file_name = f"Forest_Cover_{dt_string}.csv"
-
+                
                 # Creating an empty folder to store the uploaded files
                 if os.path.isdir("FCTPUploadedFiles"):
                     shutil.rmtree("FCTPUploadedFiles")
@@ -126,12 +114,12 @@ def ee_prediction_route():
                     os.mkdir("FCTPUploadedFiles")
 
                 # Saving the file
-                with open(os.path.join("FCTPUploadedFiles", file_name), 'wb') as f:
+                with open(os.path.join("FCTPUploadedFiles", file_item.filename), 'wb') as f:
                     f.write(file_item.read())
 
                 # Creating an object to perform data injestion and validation
                 pred_injestion_obj = FCTPDataInjestionComplete(is_training=False, data_dir="FCTPUploadedFiles",
-                                                              do_database_operation=False)
+                                                              do_database_operations=False)
                 # Performing data injestion and validation
                 pred_injestion_obj.fctp_data_injestion_complete()
 
@@ -139,8 +127,6 @@ def ee_prediction_route():
                 pred_pipeline = FCTPPredictionPipeline()
                 # Performing Prediction
                 result = pred_pipeline.fctp_predict()
-
-                print(result)
 
                 # Rendering a Web Page to display the results
                 return render_template("predict.html", records=result, image_url=img_url)
@@ -150,7 +136,8 @@ def ee_prediction_route():
                 message = "Using Default FCTPPrediction Dataset"
 
                 # Creating an object to perform data injestion and validation
-                pred_injestion = FCTPDataInjestionComplete(is_training=False, data_dir="FCTPPredictionDatasets")
+                pred_injestion = FCTPDataInjestionComplete(is_training=False, data_dir="FCTPPredictionDatasets",
+                                                           do_database_operations=False)
                 # Performing data injestion and validation
                 pred_injestion.fctp_data_injestion_complete()
 
@@ -158,7 +145,6 @@ def ee_prediction_route():
                 pred_pipeline = FCTPPredictionPipeline()
                 # Performing Prediction
                 result = pred_pipeline.fctp_predict()
-                print(result)
 
                 return render_template("predict.html", message=message, records=result, image_url=img_url)
 
@@ -172,7 +158,28 @@ def ee_prediction_route():
 
     except Exception as e:
         message = f"Error: {str(e)}\nTry Again"
-        return render_template("predict.html", message=message, image_url=img_url)
+        # return render_template("predict.html", message=message, image_url=img_url)
+        raise e
+
+
+@app.route("/logs", methods=["POST"])
+@cross_origin()
+def fctp_get_logs():
+    img_url = url_for('static', filename='ineuron-logo.webp')
+    try:
+        if request.form is not None:
+            log_type = request.form['log_type']
+
+            with open(os.path.join("FCTPLogFiles/", log_type), "r") as f:
+                logs = f.readlines()
+            return render_template("logs.html", heading=log_type.split("/")[1], logs=logs, image_url=img_url)
+        else:
+            message = "No logs found"
+            return render_template("logs.html", message=message, image_url=img_url)
+
+    except Exception as e:
+        message = f"Error: {str(e)}"
+        return render_template("logs.html", heading=message, image_url=img_url)
 
 port = int(os.getenv("PORT", 5000))
 

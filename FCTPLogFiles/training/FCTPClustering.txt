@@ -1,2 +1,4 @@
 INFO 06/19/2022 08:36:57 PM TRAINING The optimum cluster value obtained is 18 with wcss=248023.88900399554
 INFO 06/19/2022 08:36:58 PM TRAINING: Clustering has been done, with cluster column added to dataset
+INFO 06/28/2022 09:05:32 PM TRAINING The optimum cluster value obtained is 18 with wcss=248023.88900399551
+INFO 06/28/2022 09:05:33 PM TRAINING: Clustering has been done, with cluster column added to dataset

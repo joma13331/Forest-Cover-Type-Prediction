@@ -2,3 +2,7 @@ INFO 06/19/2022 08:36:39 PM TRAINING: The following columns were dropped: ['id',
 INFO 06/19/2022 08:36:39 PM TRAINING: the features with all values as equal are ['Soil_Type7', 'Soil_Type15']
 INFO 06/19/2022 08:36:40 PM TRAINING: The features which have no or very impact on the output are ['Soil_Type7', 'Soil_Type8', 'Soil_Type9', 'Soil_Type15', 'Soil_Type16', 'Soil_Type19', 'Soil_Type21', 'Soil_Type25', 'Soil_Type26', 'Soil_Type27', 'Soil_Type28', 'Soil_Type34', 'Soil_Type36', 'Soil_Type37']
 INFO 06/19/2022 08:36:40 PM TRAINING: The following columns were dropped: ['Soil_Type36', 'Soil_Type28', 'Soil_Type15', 'Soil_Type8', 'Soil_Type9', 'Soil_Type16', 'Soil_Type34', 'Soil_Type26', 'Soil_Type27', 'Soil_Type37', 'Soil_Type7', 'Soil_Type21', 'Soil_Type25', 'Soil_Type19']
+INFO 06/28/2022 09:05:11 PM TRAINING: The following columns were dropped: ['id', 'Id']
+INFO 06/28/2022 09:05:11 PM TRAINING: the features with all values as equal are ['Soil_Type7', 'Soil_Type15']
+INFO 06/28/2022 09:05:12 PM TRAINING: The features which have no or very impact on the output are ['Soil_Type7', 'Soil_Type8', 'Soil_Type9', 'Soil_Type15', 'Soil_Type16', 'Soil_Type19', 'Soil_Type21', 'Soil_Type25', 'Soil_Type26', 'Soil_Type27', 'Soil_Type28', 'Soil_Type34', 'Soil_Type36', 'Soil_Type37']
+INFO 06/28/2022 09:05:12 PM TRAINING: The following columns were dropped: ['Soil_Type19', 'Soil_Type34', 'Soil_Type7', 'Soil_Type25', 'Soil_Type27', 'Soil_Type16', 'Soil_Type8', 'Soil_Type9', 'Soil_Type36', 'Soil_Type21', 'Soil_Type26', 'Soil_Type37', 'Soil_Type28', 'Soil_Type15']

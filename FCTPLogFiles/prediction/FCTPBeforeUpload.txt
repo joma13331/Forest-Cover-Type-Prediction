@@ -1,0 +1,5 @@
+INFO 06/28/2022 08:34:02 PM PREDICTION: Forest_Cover_19062022_201145.csv transformed successfully
+INFO 06/28/2022 08:41:40 PM PREDICTION: Forest_Cover_28062022_204140.csv transformed successfully
+INFO 06/28/2022 08:48:06 PM PREDICTION: Forest_Cover_19062022_201145.csv transformed successfully
+INFO 06/28/2022 08:59:14 PM PREDICTION: Forest_Cover_19062022_201145.csv transformed successfully
+INFO 06/28/2022 08:59:14 PM PREDICTION: Forest_Cover_19062022_201145.csv transformed successfully

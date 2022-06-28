@@ -1,0 +1,55 @@
+INFO 06/28/2022 08:34:02 PM PREDICTION: Length of year in file = 8
+Length of time ofin file = 6
+Number of columns = 55
+INFO 06/28/2022 08:34:02 PM PREDICTION: GoodRaw directory deleted successfully!!!
+INFO 06/28/2022 08:34:02 PM PREDICTION: Good and Bad file directory created
+INFO 06/28/2022 08:34:02 PM PREDICTION: Forest_Cover_19062022_201145.csv is valid!! moved to GoodRaw folder
+INFO 06/28/2022 08:34:02 PM PREDICTION: Forest_Cover_19062022_201145.csv validated. File remains in Good Folder
+INFO 06/28/2022 08:34:02 PM PREDICTION: Column Length Validation Completed!!
+INFO 06/28/2022 08:34:02 PM PREDICTION: ad files moved to archive: FCTPDIV/ArchivedData/
+INFO 06/28/2022 08:34:02 PM PREDICTIONBadRaw directory deleted successfully!!!
+INFO 06/28/2022 08:34:02 PM PREDICTION: Validated csv files Converted directly to required csv file for future preprocessing
+INFO 06/28/2022 08:41:40 PM PREDICTION: Length of year in file = 8
+Length of time ofin file = 6
+Number of columns = 55
+INFO 06/28/2022 08:41:40 PM PREDICTION: GoodRaw directory deleted successfully!!!
+INFO 06/28/2022 08:41:40 PM PREDICTION: Good and Bad file directory created
+INFO 06/28/2022 08:41:40 PM PREDICTION: Forest_Cover_28062022_204140.csv is valid!! moved to GoodRaw folder
+INFO 06/28/2022 08:41:40 PM PREDICTION: Forest_Cover_28062022_204140.csv validated. File remains in Good Folder
+INFO 06/28/2022 08:41:40 PM PREDICTION: Column Length Validation Completed!!
+INFO 06/28/2022 08:41:40 PM PREDICTION: ad files moved to archive: FCTPDIV/ArchivedData/
+INFO 06/28/2022 08:41:40 PM PREDICTIONBadRaw directory deleted successfully!!!
+INFO 06/28/2022 08:41:41 PM PREDICTION: Validated csv files Converted directly to required csv file for future preprocessing
+INFO 06/28/2022 08:48:06 PM PREDICTION: Length of year in file = 8
+Length of time ofin file = 6
+Number of columns = 55
+INFO 06/28/2022 08:48:06 PM PREDICTION: GoodRaw directory deleted successfully!!!
+INFO 06/28/2022 08:48:06 PM PREDICTION: Good and Bad file directory created
+INFO 06/28/2022 08:48:06 PM PREDICTION: Forest_Cover_19062022_201145.csv is valid!! moved to GoodRaw folder
+INFO 06/28/2022 08:48:06 PM PREDICTION: Forest_Cover_19062022_201145.csv validated. File remains in Good Folder
+INFO 06/28/2022 08:48:06 PM PREDICTION: Column Length Validation Completed!!
+INFO 06/28/2022 08:48:06 PM PREDICTION: ad files moved to archive: FCTPDIV/ArchivedData/
+INFO 06/28/2022 08:48:06 PM PREDICTIONBadRaw directory deleted successfully!!!
+INFO 06/28/2022 08:48:06 PM PREDICTION: Validated csv files Converted directly to required csv file for future preprocessing
+INFO 06/28/2022 08:59:14 PM PREDICTION: Length of year in file = 8
+Length of time ofin file = 6
+Number of columns = 55
+INFO 06/28/2022 08:59:14 PM PREDICTION: Length of year in file = 8
+Length of time ofin file = 6
+Number of columns = 55
+INFO 06/28/2022 08:59:14 PM PREDICTION: GoodRaw directory deleted successfully!!!
+INFO 06/28/2022 08:59:14 PM PREDICTION: GoodRaw directory deleted successfully!!!
+INFO 06/28/2022 08:59:14 PM PREDICTION: Good and Bad file directory created
+INFO 06/28/2022 08:59:14 PM PREDICTION: Good and Bad file directory created
+INFO 06/28/2022 08:59:14 PM PREDICTION: Forest_Cover_19062022_201145.csv is valid!! moved to GoodRaw folder
+INFO 06/28/2022 08:59:14 PM PREDICTION: Forest_Cover_19062022_201145.csv is valid!! moved to GoodRaw folder
+INFO 06/28/2022 08:59:14 PM PREDICTION: Forest_Cover_19062022_201145.csv validated. File remains in Good Folder
+INFO 06/28/2022 08:59:14 PM PREDICTION: Forest_Cover_19062022_201145.csv validated. File remains in Good Folder
+INFO 06/28/2022 08:59:14 PM PREDICTION: Column Length Validation Completed!!
+INFO 06/28/2022 08:59:14 PM PREDICTION: Column Length Validation Completed!!
+INFO 06/28/2022 08:59:14 PM PREDICTION: ad files moved to archive: FCTPDIV/ArchivedData/
+INFO 06/28/2022 08:59:14 PM PREDICTION: ad files moved to archive: FCTPDIV/ArchivedData/
+INFO 06/28/2022 08:59:14 PM PREDICTIONBadRaw directory deleted successfully!!!
+INFO 06/28/2022 08:59:14 PM PREDICTIONBadRaw directory deleted successfully!!!
+INFO 06/28/2022 08:59:14 PM PREDICTION: Validated csv files Converted directly to required csv file for future preprocessing
+INFO 06/28/2022 08:59:14 PM PREDICTION: Validated csv files Converted directly to required csv file for future preprocessing

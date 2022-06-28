@@ -394,3 +394,8 @@ INFO 06/20/2022 03:28:18 AM TRAINING: The optimum parameters of xgb-classifier a
 INFO 06/20/2022 03:28:19 AM TRAINING: Best xgb classifier trained
 INFO 06/20/2022 03:28:19 AM TRAINING: Search for best xgb classifier model ended
 INFO 06/20/2022 03:28:19 AM TRAINING: The best model is random forest classifier with accuracy of 0.803680981595092for 163 instances
+INFO 06/28/2022 09:05:33 PM TRAINING: Search for best model started
+INFO 06/28/2022 09:05:33 PM TRAINING: Search for best logistic regressor model started
+INFO 06/28/2022 09:05:33 PM TRAINING: Using GridSearchCV to obtain the optimum parameters(dict_keys(['C', 'penalty', 'solver']))  of Logistic Regressor
+ERROR 06/28/2022 09:05:37 PM TRAINING: There was a problem while fitting Logistic Regressor: 
+ERROR 06/28/2022 09:05:37 PM TRAINING: There was a problem while obtaining best model : 

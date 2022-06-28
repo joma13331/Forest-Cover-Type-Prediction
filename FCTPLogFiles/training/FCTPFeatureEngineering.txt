@@ -2,3 +2,7 @@ INFO 06/19/2022 08:36:41 PM TRAINING: The dataset has been scaled using Standard
 INFO 06/19/2022 08:36:41 PM TRAINING: The Principal Component Analysis model is Trained
 INFO 06/19/2022 08:36:41 PM TRAINING: The Principal Component Analysis model is saved at FCTPModels/
 INFO 06/19/2022 08:36:41 PM TRAINING: The Principal Component Analysis was carried out on the data and the no of components in the resultant features for future pipeline are 40
+INFO 06/28/2022 09:05:13 PM TRAINING: The dataset has been scaled using Standard Scalar
+INFO 06/28/2022 09:05:13 PM TRAINING: The Principal Component Analysis model is Trained
+INFO 06/28/2022 09:05:13 PM TRAINING: The Principal Component Analysis model is saved at FCTPModels/
+INFO 06/28/2022 09:05:13 PM TRAINING: The Principal Component Analysis was carried out on the data and the no of components in the resultant features for future pipeline are 40

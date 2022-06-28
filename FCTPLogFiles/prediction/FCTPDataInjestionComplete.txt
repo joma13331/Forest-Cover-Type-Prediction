@@ -1,0 +1,30 @@
+INFO 06/28/2022 08:34:02 PM PREDICTION: Start of Injestion and Validation
+INFO 06/28/2022 08:34:02 PM PREDICTION: Raw Data Validation complete
+INFO 06/28/2022 08:34:02 PM PREDICTION: Start of Data Transformation
+INFO 06/28/2022 08:34:02 PM PREDICTION: Data Transformation Complete
+INFO 06/28/2022 08:34:02 PM PREDICTION: Start of upload of the Good Data to Cassandra Database
+INFO 06/28/2022 08:34:02 PM PREDICTION: End of Injestion and Validation
+INFO 06/28/2022 08:41:40 PM PREDICTION: Start of Injestion and Validation
+INFO 06/28/2022 08:41:40 PM PREDICTION: Raw Data Validation complete
+INFO 06/28/2022 08:41:40 PM PREDICTION: Start of Data Transformation
+INFO 06/28/2022 08:41:40 PM PREDICTION: Data Transformation Complete
+INFO 06/28/2022 08:41:40 PM PREDICTION: Start of upload of the Good Data to Cassandra Database
+INFO 06/28/2022 08:41:41 PM PREDICTION: End of Injestion and Validation
+INFO 06/28/2022 08:48:06 PM PREDICTION: Start of Injestion and Validation
+INFO 06/28/2022 08:48:06 PM PREDICTION: Raw Data Validation complete
+INFO 06/28/2022 08:48:06 PM PREDICTION: Start of Data Transformation
+INFO 06/28/2022 08:48:06 PM PREDICTION: Data Transformation Complete
+INFO 06/28/2022 08:48:06 PM PREDICTION: Start of upload of the Good Data to Cassandra Database
+INFO 06/28/2022 08:48:06 PM PREDICTION: End of Injestion and Validation
+INFO 06/28/2022 08:59:14 PM PREDICTION: Start of Injestion and Validation
+INFO 06/28/2022 08:59:14 PM PREDICTION: Start of Injestion and Validation
+INFO 06/28/2022 08:59:14 PM PREDICTION: Raw Data Validation complete
+INFO 06/28/2022 08:59:14 PM PREDICTION: Raw Data Validation complete
+INFO 06/28/2022 08:59:14 PM PREDICTION: Start of Data Transformation
+INFO 06/28/2022 08:59:14 PM PREDICTION: Start of Data Transformation
+INFO 06/28/2022 08:59:14 PM PREDICTION: Data Transformation Complete
+INFO 06/28/2022 08:59:14 PM PREDICTION: Data Transformation Complete
+INFO 06/28/2022 08:59:14 PM PREDICTION: Start of upload of the Good Data to Cassandra Database
+INFO 06/28/2022 08:59:14 PM PREDICTION: Start of upload of the Good Data to Cassandra Database
+INFO 06/28/2022 08:59:14 PM PREDICTION: End of Injestion and Validation
+INFO 06/28/2022 08:59:14 PM PREDICTION: End of Injestion and Validation

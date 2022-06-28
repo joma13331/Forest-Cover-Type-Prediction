@@ -1,3 +1,18 @@
 INFO 06/20/2022 05:13:02 AM PREDICTION: The dataset has been scaled using Standard Scalar
 INFO 06/20/2022 05:13:02 AM PREDICTION: The Principal Component Analysis model is loaded from FCTPModels/
 INFO 06/20/2022 05:13:02 AM PREDICTION: Data transformed into 40 using pca model
+INFO 06/28/2022 08:34:02 PM PREDICTION: The dataset has been scaled using Standard Scalar
+INFO 06/28/2022 08:34:02 PM PREDICTION: The Principal Component Analysis model is loaded from FCTPModels/
+INFO 06/28/2022 08:34:02 PM PREDICTION: Data transformed into 40 using pca model
+INFO 06/28/2022 08:41:41 PM PREDICTION: The dataset has been scaled using Standard Scalar
+INFO 06/28/2022 08:41:41 PM PREDICTION: The Principal Component Analysis model is loaded from FCTPModels/
+INFO 06/28/2022 08:41:41 PM PREDICTION: Data transformed into 40 using pca model
+INFO 06/28/2022 08:48:06 PM PREDICTION: The dataset has been scaled using Standard Scalar
+INFO 06/28/2022 08:48:06 PM PREDICTION: The Principal Component Analysis model is loaded from FCTPModels/
+INFO 06/28/2022 08:48:06 PM PREDICTION: Data transformed into 40 using pca model
+INFO 06/28/2022 08:59:14 PM PREDICTION: The dataset has been scaled using Standard Scalar
+INFO 06/28/2022 08:59:14 PM PREDICTION: The dataset has been scaled using Standard Scalar
+INFO 06/28/2022 08:59:14 PM PREDICTION: The Principal Component Analysis model is loaded from FCTPModels/
+INFO 06/28/2022 08:59:14 PM PREDICTION: The Principal Component Analysis model is loaded from FCTPModels/
+INFO 06/28/2022 08:59:14 PM PREDICTION: Data transformed into 40 using pca model
+INFO 06/28/2022 08:59:14 PM PREDICTION: Data transformed into 40 using pca model

@@ -1,0 +1,11 @@
+INFO 06/28/2022 09:05:10 PM TRAINING: Length of year in file = 8
+Length of time ofin file = 6
+Number of columns = 56
+INFO 06/28/2022 09:05:10 PM TRAINING: GoodRaw directory deleted successfully!!!
+INFO 06/28/2022 09:05:10 PM TRAINING: Good and Bad file directory created
+INFO 06/28/2022 09:05:10 PM TRAINING: Forest_Cover_16062022_175430.csv is valid!! moved to GoodRaw folder
+INFO 06/28/2022 09:05:10 PM TRAINING: Forest_Cover_16062022_175430.csv validated. File remains in Good Folder
+INFO 06/28/2022 09:05:10 PM TRAINING: Column Length Validation Completed!!
+INFO 06/28/2022 09:05:10 PM TRAINING: ad files moved to archive: FCTPDIV/ArchivedData/
+INFO 06/28/2022 09:05:10 PM TRAININGBadRaw directory deleted successfully!!!
+INFO 06/28/2022 09:05:11 PM TRAINING: Validated csv files Converted directly to required csv file for future preprocessing
