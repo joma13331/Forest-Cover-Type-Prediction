@@ -69,7 +69,7 @@
 * We can also see the logs to understand whether the application is working properly.
 
 ## **Workflow**
-<img src="Images/workflow.png" alt="Prediction Result" width="800">
+<img src="Images/Workflow.png" alt="Prediction Result" width="800">
 
 ## **Dataset**
 * The dataset used for training the model is available [here](https://www.kaggle.com/c/forest-cover-type-prediction/data)
