@@ -4,3 +4,4 @@ INFO 06/28/2022 08:48:06 PM PREDICTION: Forest_Cover_19062022_201145.csv transfo
 INFO 06/28/2022 08:59:14 PM PREDICTION: Forest_Cover_19062022_201145.csv transformed successfully
 INFO 06/28/2022 08:59:14 PM PREDICTION: Forest_Cover_19062022_201145.csv transformed successfully
 INFO 06/29/2022 07:25:00 AM PREDICTION: Forest_Cover_19062022_201145.csv transformed successfully
+INFO 06/29/2022 02:30:10 PM PREDICTION: Forest_Cover_19062022_201145.csv transformed successfully
