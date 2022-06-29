@@ -28,3 +28,9 @@ INFO 06/28/2022 08:59:14 PM PREDICTION: Start of upload of the Good Data to Cass
 INFO 06/28/2022 08:59:14 PM PREDICTION: Start of upload of the Good Data to Cassandra Database
 INFO 06/28/2022 08:59:14 PM PREDICTION: End of Injestion and Validation
 INFO 06/28/2022 08:59:14 PM PREDICTION: End of Injestion and Validation
+INFO 06/29/2022 07:24:59 AM PREDICTION: Start of Injestion and Validation
+INFO 06/29/2022 07:25:00 AM PREDICTION: Raw Data Validation complete
+INFO 06/29/2022 07:25:00 AM PREDICTION: Start of Data Transformation
+INFO 06/29/2022 07:25:00 AM PREDICTION: Data Transformation Complete
+INFO 06/29/2022 07:25:00 AM PREDICTION: Start of upload of the Good Data to Cassandra Database
+INFO 06/29/2022 07:25:00 AM PREDICTION: End of Injestion and Validation

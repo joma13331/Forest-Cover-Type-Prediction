@@ -4,3 +4,4 @@ INFO 06/28/2022 08:41:41 PM PREDICTION: The data is loaded successfully as a pan
 INFO 06/28/2022 08:48:06 PM PREDICTION: The data is loaded successfully as a pandas dataframe
 INFO 06/28/2022 08:59:14 PM PREDICTION: The data is loaded successfully as a pandas dataframe
 INFO 06/28/2022 08:59:14 PM PREDICTION: The data is loaded successfully as a pandas dataframe
+INFO 06/29/2022 07:25:00 AM PREDICTION: The data is loaded successfully as a pandas dataframe
